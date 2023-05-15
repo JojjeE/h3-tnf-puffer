@@ -1,0 +1,1 @@
+{"tempHash":"00097AA87B144150","tbluHash":"00E738E7CF7A35E1","patch":[{"SubEntityOperation":["c036c5edb0b462a5",{"SetFactory":"000EB77427A6BE46"}]},{"SubEntityOperation":["c036c5edb0b462a5",{"SetBlueprint":"00C9C53E543A4DB0"}]},{"SubEntityOperation":["9e7359b3085a49ca",{"SetPropertyValue":{"property_name":"m_eSoundFootwearType","value":"EFWT_SNEAKERS"}}]}],"patchVersion":6}

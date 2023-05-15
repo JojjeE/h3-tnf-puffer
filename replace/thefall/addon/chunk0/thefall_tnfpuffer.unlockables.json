@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL": {
+		"Id": "TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL",
+		"Guid": "82f7329b-3b13-4182-a80b-11e36e4c0a08",
+		"Type": "disguise",
+		"Subtype": "coats",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 1,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "d9c8ddd3-dba0-4b74-ad08-3b78d5c3ad1d",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

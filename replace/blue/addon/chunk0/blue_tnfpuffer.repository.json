@@ -1,0 +1,14 @@
+{
+	"c8a61db3-d541-49ef-b97e-6a2e03f0d385": {
+		"ID_": "c8a61db3-d541-49ef-b97e-6a2e03f0d385",
+		"CommonName": "CHAR_Global_Hero_TNFPuffer_Blue_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_TNFPuffer_blue.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE"
+	}
+}

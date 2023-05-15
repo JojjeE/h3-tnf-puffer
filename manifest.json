@@ -1,9 +1,3781 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.TNFPuffer",
+	"name": "TNF Puffer",
+	"description": "Now you too can be the driplord. Choose from 6 variants. Install them for Peacock or replace the Snow Festival Suit, or a casual suit of your choice.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.25.0",
+	"version": "1.1.1",
+	"updateCheck": "https://github.dioden.nu/updateChecks/tnfpuffer.json",
+	"contentFolders": ["base"],
+	"localisedLines": {
+		"005EECA63AA0E7A6": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC"
+	},
+	"localisation": {
+		"english": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+		},
+		"french": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+		},
+		"italian": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+		},
+		"german": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+		},
+		"spanish": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+		},
+		"russian": {
+			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+		}
+	},
+	"dependencies": [ "0049F083DC18CC1F", "00087BEFE0EFFF66" ],
+	"options": [
+		{
+			"group": "Black",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the black jacket.",
+			"image": "black.jpg"
+		},
+		{
+			"group": "Black",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the black jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/addon"
+			],
+			"blobsFolders": [
+				"blobs/black/addon"
+			],
+			"localisedLines": {
+				"0044C0895AFEA964": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "TNF Nuptse Jacket (Black)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "Veste TNF Nuptse (Noir)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "Giacca TNF Nuptse (Nero)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "TNF Nuptse Jacke (Schwarz)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "Chaqueta TNF Nuptse (Negra)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME": "Куртка TNF Nuptse (Черный)"
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/black/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/black/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/black/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/miami"
+			],
+			"blobsFolders": [
+				"blobs/black/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (Black)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (Noir)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (Nero)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (Schwarz)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (Negra)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (Черный)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/black/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (Black)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (Noir)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (Nero)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (Schwarz)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (Negra)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (Черный)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/black/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (Black)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (Noir)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (Nero)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (Schwarz)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (Negra)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (Черный)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/black/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/black/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (Black)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (Noir)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (Nero)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (Schwarz)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (Negra)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (Черный)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/black/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/black/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (Black)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (Noir)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (Nero)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (Schwarz)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (Negra)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (Черный)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/black/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (Black)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (Noir)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (Nero)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (Schwarz)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (Negra)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (Черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/black/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (Black)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (Noir)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (Nero)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (Schwarz)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (Negra)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (Черный)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/raver"
+			],
+			"blobsFolders": [
+				"blobs/black/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (Black)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (Noir)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (Nero)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (Schwarz)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (Negra)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (Черный)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"mats/normal",
+				"replace/black/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/black/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (Black)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (Noir)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (Nero)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (Schwarz)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (Negra)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (Черный)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the blue jacket.",
+			"image": "blue.jpg"
+		},
+		{
+			"group": "Blue",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the blue jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/addon"
+			],
+			"blobsFolders": [
+				"blobs/blue/addon"
+			],
+			"localisedLines": {
+				"002AA18BA22C4A21": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "TNF Nuptse Jacket (Blue)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "Veste TNF Nuptse (Bleu)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "Giacca TNF Nuptse (Blu)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "TNF Nuptse Jacke (Blau)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "Chaqueta TNF Nuptse (Azul)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME": "Куртка TNF Nuptse (Синий)"
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/blue/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/blue/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/blue/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/miami"
+			],
+			"blobsFolders": [
+				"blobs/blue/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (Blue)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (Bleu)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (Blu)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (Blau)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (Azul)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (Синий)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/blue/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (Blue)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (Bleu)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (Blu)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (Blau)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (Azul)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (Синий)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/blue/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (Blue)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (Bleu)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (Blu)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (Blau)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (Azul)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (Синий)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/blue/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/blue/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (Blue)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (Bleu)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (Blu)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (Blau)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (Azul)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (Синий)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/blue/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/blue/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (Blue)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (Bleu)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (Blu)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (Blau)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (Azul)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (Синий)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/blue/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (Blue)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (Bleu)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (Blu)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (Blau)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (Azul)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (Синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/blue/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (Blue)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (Bleu)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (Blu)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (Blau)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (Azul)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (Синий)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/raver"
+			],
+			"blobsFolders": [
+				"blobs/blue/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (Blue)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (Bleu)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (Blu)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (Blau)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (Azul)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (Синий)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Blue",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/blue",
+				"mats/normal",
+				"replace/blue/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/blue/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (Blue)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (Bleu)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (Blu)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (Blau)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (Azul)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (Синий)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the green jacket.",
+			"image": "green.jpg"
+		},
+		{
+			"group": "Green",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the green jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/addon"
+			],
+			"blobsFolders": [
+				"blobs/green/addon"
+			],
+			"localisedLines": {
+				"002F95C1F5D5E5B5": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "TNF Nuptse Jacket (Green)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "Veste TNF Nuptse (Verte)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "Giacca TNF Nuptse (Verde)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "TNF Nuptse Jacke (Grün)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "Chaqueta TNF Nuptse (Verde)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME": "Куртка TNF Nuptse (Зеленый)"
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/green/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/green/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/green/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/miami"
+			],
+			"blobsFolders": [
+				"blobs/green/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (Green)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (Verte)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (Verde)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (Grün)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (Verde)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (Зеленый)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/green/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (Green)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (Verte)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (Verde)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (Grün)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (Verde)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (Зеленый)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/green/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (Green)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (Verte)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (Verde)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (Grün)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (Verde)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (Зеленый)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/green/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/green/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (Green)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (Verte)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (Verde)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (Grün)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (Verde)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (Зеленый)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/green/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/green/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (Green)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (Verte)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (Verde)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (Grün)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (Verde)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (Зеленый)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/green/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (Green)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (Verte)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (Verde)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (Grün)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (Verde)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (Зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/green/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (Green)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (Verte)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (Verde)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (Grün)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (Verde)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (Зеленый)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/raver"
+			],
+			"blobsFolders": [
+				"blobs/green/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (Green)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (Verte)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (Verde)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (Grün)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (Verde)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (Зеленый)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "Green",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/green",
+				"mats/normal",
+				"replace/green/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/green/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (Green)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (Verte)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (Verde)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (Grün)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (Verde)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (Зеленый)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the black \"By Any Means Necessary\" jacket.",
+			"image": "bamn.jpg"
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the black \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/addon"
+			],
+			"blobsFolders": [
+				"blobs/bamn/addon"
+			],
+			"localisedLines": {
+				"0068A1F9CDD5A1E6": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "TNF Nuptse Jacket (By Any Means Necessary)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "Veste TNF Nuptse (By Any Means Necessary)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "Giacca TNF Nuptse (By Any Means Necessary)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "TNF Nuptse Jacke (By Any Means Necessary)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME": "Куртка TNF Nuptse (By Any Means Necessary)"
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/bamn/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/bamn/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/bamn/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/miami"
+			],
+			"blobsFolders": [
+				"blobs/bamn/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (By Any Means Necessary)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/bamn/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (By Any Means Necessary)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/bamn/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (By Any Means Necessary)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/bamn/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/bamn/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (By Any Means Necessary)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/bamn/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/bamn/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (By Any Means Necessary)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/bamn/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (By Any Means Necessary)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (By Any Means Necessary)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (By Any Means Necessary)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (By Any Means Necessary)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (By Any Means Necessary)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/bamn/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (By Any Means Necessary)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/raver"
+			],
+			"blobsFolders": [
+				"blobs/bamn/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (By Any Means Necessary)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamn/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/bamn/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (By Any Means Necessary)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (By Any Means Necessary)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (By Any Means Necessary)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (By Any Means Necessary)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (By Any Means Necessary)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (By Any Means Necessary)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the red \"By Any Means Necessary\" jacket.",
+			"image": "bamnred.jpg"
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the red \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/addon"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/addon"
+			],
+			"localisedLines": {
+				"00363BC62EB8CCD2": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/miami"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (By Any Means Necessary, Red)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (By Any Means Necessary, Rouge)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (By Any Means Necessary, Rot)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (By Any Means Necessary, Красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/raver"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "By Any Means Necessary, Red",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/BAMN_red",
+				"mats/BAMN_shirt",
+				"mats/normal_supreme",
+				"replace/bamnred/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/bamnred/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (By Any Means Necessary, Red)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (By Any Means Necessary, Rouge)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (By Any Means Necessary, Rosso)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (By Any Means Necessary, Rot)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (By Any Means Necessary, Roja)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (By Any Means Necessary, Красный)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the \"Fall of the Rebel Angels\" jacket.",
+			"image": "thefall.jpg"
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the \"Fall of the Rebel Angels\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/addon"
+			],
+			"blobsFolders": [
+				"blobs/thefall/addon"
+			],
+			"localisedLines": {
+				"00C11C85AE4DA923": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "Veste TNF Nuptse (La Chute des anges rebelles)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Snow Festival Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/snowfestival"
+			],
+			"blobsFolders": [
+				"blobs/thefall/snowfestival"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"44211689": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3591200885": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"44211689": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3591200885": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"44211689": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3591200885": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"44211689": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3591200885": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"44211689": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3591200885": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"44211689": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3591200885": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/thefall/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"4086875141": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"2741280242": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"4086875141": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"2741280242": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"4086875141": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"2741280242": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"4086875141": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"2741280242": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"4086875141": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"2741280242": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"4086875141": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/thefall/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"3648979387": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"3346035357": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"3648979387": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"3346035357": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"3648979387": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"3346035357": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"3648979387": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"3346035357": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"3648979387": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"3346035357": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"3648979387": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/miami"
+			],
+			"blobsFolders": [
+				"blobs/thefall/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"3175901226": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1774659088": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"3175901226": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1774659088": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"3175901226": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1774659088": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"3175901226": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1774659088": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"3175901226": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1774659088": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"3175901226": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/thefall/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"3533044117": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2978719530": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"3533044117": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2978719530": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"3533044117": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2978719530": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"3533044117": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2978719530": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"3533044117": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2978719530": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"3533044117": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/thefall/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"2101382595": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"134957393": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"2101382595": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"134957393": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"2101382595": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"134957393": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"2101382595": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"134957393": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"2101382595": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"134957393": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"2101382595": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/thefall/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2814457931": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"2627471231": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2814457931": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"2627471231": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2814457931": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"2627471231": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2814457931": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"2627471231": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2814457931": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"2627471231": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2814457931": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/thefall/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"3635577953": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2052724919": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"3635577953": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2052724919": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"3635577953": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2052724919": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"3635577953": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2052724919": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"3635577953": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2052724919": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"3635577953": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/thefall/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2762453674": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"972885031": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2762453674": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"972885031": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2762453674": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"972885031": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2762453674": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"972885031": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2762453674": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"972885031": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2762453674": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/thefall/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"4241939803": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"1490534793": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"4241939803": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"1490534793": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"4241939803": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"1490534793": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"4241939803": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"1490534793": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"4241939803": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"1490534793": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"4241939803": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/thefall/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+						"2347383834": "TNF Nuptse Jacket (The Fall of the Rebel Angels)"
+					},
+					"french": {
+						"2053833950": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+						"2347383834": "Veste TNF Nuptse (La Chute des anges rebelles)"
+					},
+					"italian": {
+						"2053833950": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+						"2347383834": "Giacca TNF Nuptse (Caduta degli angeli ribelli)"
+					},
+					"german": {
+						"2053833950": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+						"2347383834": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)"
+					},
+					"spanish": {
+						"2053833950": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules.",
+						"2347383834": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)"
+					},
+					"russian": {
+						"2053833950": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+						"2347383834": "Куртка TNF Nuptse (Падение мятежных ангелов)"
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/thefall/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"678625422": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"252086724": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"678625422": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"252086724": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"678625422": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"252086724": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"678625422": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"252086724": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"678625422": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"252086724": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"678625422": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/raver"
+			],
+			"blobsFolders": [
+				"blobs/thefall/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"4079878924": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"3362995256": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"4079878924": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"3362995256": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"4079878924": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"3362995256": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"4079878924": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"3362995256": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"4079878924": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"3362995256": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"4079878924": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		},
+		{
+			"group": "The Fall of the Rebel Angels",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/thefall",
+				"mats/normal_supreme",
+				"replace/thefall/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/thefall/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "TNF Nuptse Jacket (The Fall of the Rebel Angels)",
+						"2681050670": "A fashionable and warm winter jacket on top of a tee and blue jeans."
+					},
+					"french": {
+						"2760943898": "Veste TNF Nuptse (La Chute des anges rebelles)",
+						"2681050670": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu."
+					},
+					"italian": {
+						"2760943898": "Giacca TNF Nuptse (Caduta degli angeli ribelli)",
+						"2681050670": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans."
+					},
+					"german": {
+						"2760943898": "TNF Nuptse Jacke (Der Sturz der rebellierenden Engel)",
+						"2681050670": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans."
+					},
+					"spanish": {
+						"2760943898": "Chaqueta TNF Nuptse (Caída de los ángeles rebeldes)",
+						"2681050670": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+					},
+					"russian": {
+						"2760943898": "Куртка TNF Nuptse (Падение мятежных ангелов)",
+						"2681050670": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
+					}
+				}
+			}
+		}
+	]
 }

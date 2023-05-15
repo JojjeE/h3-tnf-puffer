@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE": {
+		"Id": "TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE",
+		"Guid": "00f87e0c-8d17-4ea1-9162-f15183619487",
+		"Type": "disguise",
+		"Subtype": "coats",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 3,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "c8a61db3-d541-49ef-b97e-6a2e03f0d385",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

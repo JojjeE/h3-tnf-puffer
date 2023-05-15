@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN": {
+		"Id": "TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN",
+		"Guid": "924d91f2-bf37-4b6e-b120-1f9db404007a",
+		"Type": "disguise",
+		"Subtype": "coats",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "9e7fb237-3ab0-4fa3-9d74-7b5159d8e43a",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

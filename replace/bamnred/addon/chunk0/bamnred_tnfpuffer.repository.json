@@ -1,0 +1,14 @@
+{
+	"7c088123-db06-4660-87e4-f6c10acbd87c": {
+		"ID_": "7c088123-db06-4660-87e4-f6c10acbd87c",
+		"CommonName": "CHAR_Global_Hero_TNFPuffer_BAMN_Red_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_TNFPuffer_bamn_red.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED"
+	}
+}

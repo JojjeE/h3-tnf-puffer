@@ -1,0 +1,14 @@
+{
+	"d9c8ddd3-dba0-4b74-ad08-3b78d5c3ad1d": {
+		"ID_": "d9c8ddd3-dba0-4b74-ad08-3b78d5c3ad1d",
+		"CommonName": "CHAR_Global_Hero_TNFPuffer_The_Fall_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_TNFPuffer_the_fall.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL"
+	}
+}

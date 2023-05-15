@@ -1,0 +1,162 @@
+{
+    "tempHash": "00097AA87B144150",
+    "tbluHash": "00E738E7CF7A35E1",
+    "patch": [
+        {
+            "AddEntity": [
+                "feed708428e6db31",
+                {
+                    "parent": "ba8ea9278df2079",
+                    "name": "CHAR_Global_Hero_TNFPuffer_The_Fall_M",
+                    "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+                    "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+                    "properties": {
+                        "m_eActorType": {
+                            "type": "EActorType",
+                            "value": "eAT_Hitman"
+                        },
+                        "m_eSoundFootwearType": {
+                            "type": "EHM5SoundFootwearType",
+                            "value": "EFWT_SNEAKERS"
+                        },
+                        "m_aCharSets": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feedfc870345d5c0"
+                            ]
+                        },
+                        "m_sId": {
+                            "type": "ZGuid",
+                            "value": "d9c8ddd3-dba0-4b74-ad08-3b78d5c3ad1d"
+                        },
+                        "m_bCanCallForHelp": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_sCommonName": {
+                            "type": "ZString",
+                            "value": "CHAR_Global_Hero_TNFPuffer_The_Fall_M"
+                        },
+                        "m_sTitle": {
+                            "type": "ZString",
+                            "value": "TNF Puffer The Fall"
+                        },
+                        "m_eOutfitAICategory": {
+                            "type": "EOutfitAICategory",
+                            "value": "OAC_47STARTOUTFIT"
+                        },
+                        "m_rNameTextResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "00C11C85AE4DA923",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_rDescriptionTextResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "005EECA63AA0E7A6",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_bHeroDisguiseAvailable": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_bIsHitmanSuit": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed70e9959a1832",
+                {
+                    "parent": "feed708428e6db31",
+                    "name": "Prof_Agent47",
+                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feed708428e6db31"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedfc870345d5c0",
+                {
+                    "parent": "feed708428e6db31",
+                    "name": "CHARSET_Agent47_TNFPuffer_The_Fall",
+                    "factory": "006CB4F6165B768A",
+                    "blueprint": "0023078A7842485B"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedd8a80cd4316c",
+                {
+                    "parent": "feed708428e6db31",
+                    "name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_LIGHT",
+                    "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_rHolder": {
+                            "type": "SEntityTemplateReference",
+                            "value": "feed708428e6db31"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed0650dd1939ce",
+                {
+                    "parent": "feed708428e6db31",
+                    "name": "Keyword_Prof_Class_Default",
+                    "factory": "007A51A2AFEC0D1A",
+                    "blueprint": "00B0282A41C1CF2E",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feed708428e6db31"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed31447d2c7aa5",
+                {
+                    "parent": "feed708428e6db31",
+                    "name": "Prof_Hero_SignatureSuit",
+                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feed708428e6db31"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
