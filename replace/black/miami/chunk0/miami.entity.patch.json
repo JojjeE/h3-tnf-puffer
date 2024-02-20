@@ -1,1 +1,21 @@
-{"tempHash":"00097AA87B144150","tbluHash":"00E738E7CF7A35E1","patch":[{"SubEntityOperation":["c2cac1f422c67fd5",{"SetPropertyValue":{"property_name":"m_eSoundFootwearType","value":"EFWT_SNEAKERS"}}]},{"SubEntityOperation":["c2cac1f422c67fd5",{"SetPropertyValue":{"property_name":"m_eOutfitAICategory","value":"OAC_47STARTOUTFIT"}}]},{"SubEntityOperation":["c9214357f940f39f",{"SetFactory":"00247877C0110823"}]},{"SubEntityOperation":["c9214357f940f39f",{"SetBlueprint":"00E5C47B6F705BEF"}]}],"patchVersion":6}
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c2cac1f422c67fd5",
+				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_SNEAKERS" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2cac1f422c67fd5",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47STARTOUTFIT" } }
+			]
+		},
+		{ "SubEntityOperation": ["c9214357f940f39f", { "SetFactory": "00247877C0110823" }] },
+		{ "SubEntityOperation": ["c9214357f940f39f", { "SetBlueprint": "00E5C47B6F705BEF" }] }
+	],
+	"patchVersion": 6
+}
