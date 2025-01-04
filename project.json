@@ -37,6 +37,8 @@
 		"[unknown:/*/tnf_nuptse_logos.template].pc_entitytype",
 		"[unknown:/*/tnf_nuptse_logos.template].pc_entityblueprint",
 		"[unknown:/*/tnf_nuptse_supreme_logo.template].pc_entitytype",
-		"[unknown:/*/tnf_nuptse_supreme_logo.template].pc_entityblueprint"
+		"[unknown:/*/tnf_nuptse_supreme_logo.template].pc_entityblueprint",
+		"[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_b.tex](ascolormap).pc_tex",
+		"[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_b.tex](ascolormap).pc_mipblock1"
 	]
 }

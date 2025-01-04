@@ -7,7 +7,7 @@
 	"frameworkVersion": "2.25.0",
 	"version": "1.1.1",
 	"updateCheck": "https://github.com/JojjeE/h3-tnf-puffer/releases/latest/download/updates.json",
-	"contentFolders": ["base"],
+	"contentFolders": ["1_content/base", "1_content/bamn"],
 	"localisedLines": {
 		"005EECA63AA0E7A6": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC"
 	},
@@ -31,7 +31,6 @@
 			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": "Модная и теплая зимняя куртка поверх футболки и синих джинсов."
 		}
 	},
-	"dependencies": ["0049F083DC18CC1F", "00087BEFE0EFFF66"],
 	"options": [
 		{
 			"group": "Black",
@@ -46,7 +45,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the black jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/addon"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/addon"],
 			"blobsFolders": ["blobs/black/addon"],
 			"localisedLines": {
 				"0044C0895AFEA964": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLACK_NAME"
@@ -76,7 +75,7 @@
 			"group": "Black",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/snowfestival"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/snowfestival"],
 			"blobsFolders": ["blobs/black/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -111,7 +110,7 @@
 			"group": "Black",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/bangkok"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/bangkok"],
 			"blobsFolders": ["blobs/black/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -146,7 +145,7 @@
 			"group": "Black",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/sapienza"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/sapienza"],
 			"blobsFolders": ["blobs/black/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -181,7 +180,7 @@
 			"group": "Black",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/miami"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/miami"],
 			"blobsFolders": ["blobs/black/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -216,7 +215,7 @@
 			"group": "Black",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/sanfortuna"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/sanfortuna"],
 			"blobsFolders": ["blobs/black/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -251,7 +250,7 @@
 			"group": "Black",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/summersuave"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/summersuave"],
 			"blobsFolders": ["blobs/black/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -286,7 +285,7 @@
 			"group": "Black",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/summersightseeing"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/summersightseeing"],
 			"blobsFolders": ["blobs/black/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -321,7 +320,7 @@
 			"group": "Black",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/casualundercover"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/casualundercover"],
 			"blobsFolders": ["blobs/black/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -356,7 +355,7 @@
 			"group": "Black",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/midnightblack"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/midnightblack"],
 			"blobsFolders": ["blobs/black/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -391,7 +390,7 @@
 			"group": "Black",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/marrakesh"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/marrakesh"],
 			"blobsFolders": ["blobs/black/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -426,7 +425,7 @@
 			"group": "Black",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/tropicalsuit"],
 			"blobsFolders": ["blobs/black/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -461,7 +460,7 @@
 			"group": "Black",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/smartcasual"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/smartcasual"],
 			"blobsFolders": ["blobs/black/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -496,7 +495,7 @@
 			"group": "Black",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/raver"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/raver"],
 			"blobsFolders": ["blobs/black/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -531,7 +530,7 @@
 			"group": "Black",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/black", "mats/normal", "replace/black/luckyducky"],
+			"contentFolders": ["1_content/outfits/black", "2_patches/replace/black/luckyducky"],
 			"blobsFolders": ["blobs/black/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -575,7 +574,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the blue jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/addon"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/addon"],
 			"blobsFolders": ["blobs/blue/addon"],
 			"localisedLines": {
 				"002AA18BA22C4A21": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE_NAME"
@@ -605,7 +604,7 @@
 			"group": "Blue",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/snowfestival"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/snowfestival"],
 			"blobsFolders": ["blobs/blue/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -640,7 +639,7 @@
 			"group": "Blue",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/bangkok"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/bangkok"],
 			"blobsFolders": ["blobs/blue/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -675,7 +674,7 @@
 			"group": "Blue",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/sapienza"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/sapienza"],
 			"blobsFolders": ["blobs/blue/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -710,7 +709,7 @@
 			"group": "Blue",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/miami"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/miami"],
 			"blobsFolders": ["blobs/blue/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -745,7 +744,7 @@
 			"group": "Blue",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/sanfortuna"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/sanfortuna"],
 			"blobsFolders": ["blobs/blue/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -780,7 +779,7 @@
 			"group": "Blue",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/summersuave"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/summersuave"],
 			"blobsFolders": ["blobs/blue/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -815,7 +814,7 @@
 			"group": "Blue",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/summersightseeing"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/summersightseeing"],
 			"blobsFolders": ["blobs/blue/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -850,7 +849,7 @@
 			"group": "Blue",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/casualundercover"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/casualundercover"],
 			"blobsFolders": ["blobs/blue/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -885,7 +884,7 @@
 			"group": "Blue",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/midnightblack"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/midnightblack"],
 			"blobsFolders": ["blobs/blue/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -920,7 +919,7 @@
 			"group": "Blue",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/marrakesh"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/marrakesh"],
 			"blobsFolders": ["blobs/blue/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -955,7 +954,7 @@
 			"group": "Blue",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/tropicalsuit"],
 			"blobsFolders": ["blobs/blue/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -990,7 +989,7 @@
 			"group": "Blue",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/smartcasual"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/smartcasual"],
 			"blobsFolders": ["blobs/blue/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1025,7 +1024,7 @@
 			"group": "Blue",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/raver"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/raver"],
 			"blobsFolders": ["blobs/blue/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1060,7 +1059,7 @@
 			"group": "Blue",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/blue", "mats/normal", "replace/blue/luckyducky"],
+			"contentFolders": ["1_content/outfits/blue", "2_patches/replace/blue/luckyducky"],
 			"blobsFolders": ["blobs/blue/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1104,7 +1103,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the green jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/addon"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/addon"],
 			"blobsFolders": ["blobs/green/addon"],
 			"localisedLines": {
 				"002F95C1F5D5E5B5": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_GREEN_NAME"
@@ -1134,7 +1133,7 @@
 			"group": "Green",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/snowfestival"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/snowfestival"],
 			"blobsFolders": ["blobs/green/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1169,7 +1168,7 @@
 			"group": "Green",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/bangkok"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/bangkok"],
 			"blobsFolders": ["blobs/green/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -1204,7 +1203,7 @@
 			"group": "Green",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/sapienza"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/sapienza"],
 			"blobsFolders": ["blobs/green/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -1239,7 +1238,7 @@
 			"group": "Green",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/miami"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/miami"],
 			"blobsFolders": ["blobs/green/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1274,7 +1273,7 @@
 			"group": "Green",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/sanfortuna"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/sanfortuna"],
 			"blobsFolders": ["blobs/green/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1309,7 +1308,7 @@
 			"group": "Green",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/summersuave"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/summersuave"],
 			"blobsFolders": ["blobs/green/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1344,7 +1343,7 @@
 			"group": "Green",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/summersightseeing"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/summersightseeing"],
 			"blobsFolders": ["blobs/green/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1379,7 +1378,7 @@
 			"group": "Green",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/casualundercover"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/casualundercover"],
 			"blobsFolders": ["blobs/green/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1414,7 +1413,7 @@
 			"group": "Green",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/midnightblack"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/midnightblack"],
 			"blobsFolders": ["blobs/green/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1449,7 +1448,7 @@
 			"group": "Green",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/marrakesh"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/marrakesh"],
 			"blobsFolders": ["blobs/green/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -1484,7 +1483,7 @@
 			"group": "Green",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/tropicalsuit"],
 			"blobsFolders": ["blobs/green/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1519,7 +1518,7 @@
 			"group": "Green",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/smartcasual"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/smartcasual"],
 			"blobsFolders": ["blobs/green/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1554,7 +1553,7 @@
 			"group": "Green",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/raver"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/raver"],
 			"blobsFolders": ["blobs/green/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1589,7 +1588,7 @@
 			"group": "Green",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/green", "mats/normal", "replace/green/luckyducky"],
+			"contentFolders": ["1_content/outfits/green", "2_patches/replace/green/luckyducky"],
 			"blobsFolders": ["blobs/green/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1633,7 +1632,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the black \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/addon"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/addon"],
 			"blobsFolders": ["blobs/bamn/addon"],
 			"localisedLines": {
 				"0068A1F9CDD5A1E6": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_NAME"
@@ -1663,7 +1662,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/snowfestival"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/snowfestival"],
 			"blobsFolders": ["blobs/bamn/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1698,7 +1697,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/bangkok"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/bangkok"],
 			"blobsFolders": ["blobs/bamn/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -1733,7 +1732,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/sapienza"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/sapienza"],
 			"blobsFolders": ["blobs/bamn/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -1768,7 +1767,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/miami"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/miami"],
 			"blobsFolders": ["blobs/bamn/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1803,7 +1802,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/sanfortuna"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/sanfortuna"],
 			"blobsFolders": ["blobs/bamn/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1838,7 +1837,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/summersuave"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/summersuave"],
 			"blobsFolders": ["blobs/bamn/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1873,7 +1872,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/summersightseeing"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/summersightseeing"],
 			"blobsFolders": ["blobs/bamn/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -1908,7 +1907,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/casualundercover"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/casualundercover"],
 			"blobsFolders": ["blobs/bamn/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1943,7 +1942,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/midnightblack"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/midnightblack"],
 			"blobsFolders": ["blobs/bamn/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -1978,7 +1977,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/marrakesh"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/marrakesh"],
 			"blobsFolders": ["blobs/bamn/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2013,7 +2012,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/tropicalsuit"],
 			"blobsFolders": ["blobs/bamn/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2048,7 +2047,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/smartcasual"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/smartcasual"],
 			"blobsFolders": ["blobs/bamn/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2083,7 +2082,7 @@
 			"group": "By Any Means Necessary",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/raver"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/raver"],
 			"blobsFolders": ["blobs/bamn/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -2118,7 +2117,7 @@
 			"group": "By Any Means Necessary",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/BAMN", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamn/luckyducky"],
+			"contentFolders": ["1_content/outfits/BAMN", "1_content/bamn", "2_patches/replace/bamn/luckyducky"],
 			"blobsFolders": ["blobs/bamn/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -2162,7 +2161,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the red \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/addon"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/addon"],
 			"blobsFolders": ["blobs/bamnred/addon"],
 			"localisedLines": {
 				"00363BC62EB8CCD2": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_BAMN_RED_NAME"
@@ -2192,7 +2191,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/snowfestival"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/snowfestival"],
 			"blobsFolders": ["blobs/bamnred/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2227,7 +2226,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/bangkok"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/bangkok"],
 			"blobsFolders": ["blobs/bamnred/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2262,7 +2261,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/sapienza"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/sapienza"],
 			"blobsFolders": ["blobs/bamnred/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2297,7 +2296,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/miami"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/miami"],
 			"blobsFolders": ["blobs/bamnred/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2332,7 +2331,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/sanfortuna"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/sanfortuna"],
 			"blobsFolders": ["blobs/bamnred/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2367,7 +2366,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/summersuave"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/summersuave"],
 			"blobsFolders": ["blobs/bamnred/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2403,10 +2402,9 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/BAMN_red",
-				"mats/BAMN_shirt",
-				"mats/normal_supreme",
-				"replace/bamnred/summersightseeing"
+				"1_content/outfits/BAMN_red",
+				"1_content/bamn",
+				"2_patches/replace/bamnred/summersightseeing"
 			],
 			"blobsFolders": ["blobs/bamnred/summersightseeing"],
 			"localisationOverrides": {
@@ -2442,12 +2440,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"mats/BAMN_red",
-				"mats/BAMN_shirt",
-				"mats/normal_supreme",
-				"replace/bamnred/casualundercover"
-			],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/casualundercover"],
 			"blobsFolders": ["blobs/bamnred/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2482,7 +2475,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/midnightblack"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/midnightblack"],
 			"blobsFolders": ["blobs/bamnred/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2517,7 +2510,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/marrakesh"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/marrakesh"],
 			"blobsFolders": ["blobs/bamnred/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2552,7 +2545,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/tropicalsuit"],
 			"blobsFolders": ["blobs/bamnred/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2587,7 +2580,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/smartcasual"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/smartcasual"],
 			"blobsFolders": ["blobs/bamnred/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2622,7 +2615,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/raver"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/raver"],
 			"blobsFolders": ["blobs/bamnred/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -2657,7 +2650,7 @@
 			"group": "By Any Means Necessary, Red",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/BAMN_red", "mats/BAMN_shirt", "mats/normal_supreme", "replace/bamnred/luckyducky"],
+			"contentFolders": ["1_content/outfits/BAMN_red", "1_content/bamn", "2_patches/replace/bamnred/luckyducky"],
 			"blobsFolders": ["blobs/bamnred/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -2701,7 +2694,7 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the \"Fall of the Rebel Angels\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/addon"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/addon"],
 			"blobsFolders": ["blobs/thefall/addon"],
 			"localisedLines": {
 				"00C11C85AE4DA923": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_THE_FALL_NAME"
@@ -2731,7 +2724,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Snow Festival Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/snowfestival"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/snowfestival"],
 			"blobsFolders": ["blobs/thefall/snowfestival"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2766,7 +2759,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/bangkok"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/bangkok"],
 			"blobsFolders": ["blobs/thefall/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2801,7 +2794,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/sapienza"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/sapienza"],
 			"blobsFolders": ["blobs/thefall/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -2836,7 +2829,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/miami"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/miami"],
 			"blobsFolders": ["blobs/thefall/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2871,7 +2864,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/sanfortuna"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/sanfortuna"],
 			"blobsFolders": ["blobs/thefall/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2906,7 +2899,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/summersuave"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/summersuave"],
 			"blobsFolders": ["blobs/thefall/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -2941,7 +2934,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/summersightseeing"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/summersightseeing"],
 			"blobsFolders": ["blobs/thefall/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -2976,7 +2969,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/casualundercover"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/casualundercover"],
 			"blobsFolders": ["blobs/thefall/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -3011,7 +3004,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/midnightblack"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/midnightblack"],
 			"blobsFolders": ["blobs/thefall/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -3046,7 +3039,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/marrakesh"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/marrakesh"],
 			"blobsFolders": ["blobs/thefall/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
@@ -3081,7 +3074,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/tropicalsuit"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/tropicalsuit"],
 			"blobsFolders": ["blobs/thefall/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -3116,7 +3109,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/smartcasual"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/smartcasual"],
 			"blobsFolders": ["blobs/thefall/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
@@ -3151,7 +3144,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/raver"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/raver"],
 			"blobsFolders": ["blobs/thefall/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
@@ -3186,7 +3179,7 @@
 			"group": "The Fall of the Rebel Angels",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": ["mats/thefall", "mats/normal_supreme", "replace/thefall/luckyducky"],
+			"contentFolders": ["1_content/outfits/thefall", "2_patches/replace/thefall/luckyducky"],
 			"blobsFolders": ["blobs/thefall/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
