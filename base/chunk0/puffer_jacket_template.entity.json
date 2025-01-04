@@ -1,0 +1,114 @@
+{
+	"tempHash": "0052641A3F980FBD",
+	"tbluHash": "00C2BDE50E889B2A",
+	"rootEntity": "c2ec3962b394ad0c",
+	"entities": {
+		"8319763acf5a13fd": {
+			"parent": "c2ec3962b394ad0c",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0036D38AE8EC45B0", "flag": "5F" }
+				},
+				"m_ClothColliders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true }
+			}
+		},
+		"d883391b04594e64": {
+			"parent": "c2ec3962b394ad0c",
+			"name": "tnf_nuptse",
+			"factory": "00192057493A0ED5",
+			"blueprint": "006C03262AADB62F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": -0.0, "y": 0.0, "z": -0.0 }, "position": { "x": 0.0, "y": 0.0, "z": 0.0 } }
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_02_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_03_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "00315D78CF3CE8C2", "flag": "5F" } },
+				"Texture2D_02": { "type": "ZRuntimeResourceID", "value": { "resource": "00453E08123FEB2A", "flag": "5F" } },
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00F4416D5C27C073", "flag": "5F" } },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00403519D634FCA7", "flag": "5F" }
+				},
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5 },
+				"ConstantVector1D_04_Value": { "type": "float32", "value": 0.0 },
+				"ConstantVector1D_06_Value": { "type": "float32", "value": 1.0 },
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"ConstantColorRGB_03_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"ConstantColorRGB_04_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["c2ec3962b394ad0c"], "postInit": true }
+			}
+		},
+		"c2ec3962b394ad0c": {
+			"parent": null,
+			"name": "Puffer_Jacket",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5 },
+				"ConstantVector1D_04_Value": { "type": "float32", "value": 0.0 },
+				"ConstantVector1D_06_Value": { "type": "float32", "value": 1.0 },
+				"Color_Lining": { "type": "SColorRGB", "value": "#ffffff" },
+				"Color_Top": { "type": "SColorRGB", "value": "#ffffff" },
+				"Color_Sleeves_Mid": { "type": "SColorRGB", "value": "#ffffff" },
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "00315D78CF3CE8C2", "flag": "5F" } },
+				"Texture2D_02": { "type": "ZRuntimeResourceID", "value": { "resource": "00453E08123FEB2A", "flag": "5F" } },
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00F4416D5C27C073", "flag": "5F" } },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00403519D634FCA7", "flag": "5F" }
+				}
+			},
+			"propertyAliases": {
+				"Color_Lining": [{ "originalProperty": "ConstantColorRGB_04_Value", "originalEntity": "d883391b04594e64" }],
+				"Color_Top": [{ "originalProperty": "ConstantColorRGB_03_Value", "originalEntity": "d883391b04594e64" }],
+				"Color_Sleeves_Mid": [
+					{ "originalProperty": "ConstantColorRGB_02_Value", "originalEntity": "d883391b04594e64" }
+				],
+				"ConstantVector1D_01_Value": [
+					{ "originalProperty": "ConstantVector1D_01_Value", "originalEntity": "d883391b04594e64" }
+				],
+				"ConstantVector1D_04_Value": [
+					{ "originalProperty": "ConstantVector1D_04_Value", "originalEntity": "d883391b04594e64" }
+				],
+				"ConstantVector1D_06_Value": [
+					{ "originalProperty": "ConstantVector1D_06_Value", "originalEntity": "d883391b04594e64" }
+				],
+				"Texture2DNormal_01": [{ "originalProperty": "Texture2DNormal_01", "originalEntity": "d883391b04594e64" }],
+				"Texture2D_01": [{ "originalProperty": "Texture2D_01", "originalEntity": "d883391b04594e64" }],
+				"Texture2D_02": [{ "originalProperty": "Texture2D_02", "originalEntity": "d883391b04594e64" }],
+				"Texture2D_03": [{ "originalProperty": "Texture2D_03", "originalEntity": "d883391b04594e64" }],
+				"m_pMeshResource": [{ "originalProperty": "m_pMeshResource", "originalEntity": "8319763acf5a13fd" }]
+			},
+			"exposedInterfaces": { "ZBodyPartEntity": "8319763acf5a13fd", "ZClothColliderGroupAspect": "8319763acf5a13fd" }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00403519D634FCA7", "flag": "5F" },
+		{ "resource": "00315D78CF3CE8C2", "flag": "5F" },
+		{ "resource": "00F4416D5C27C073", "flag": "5F" },
+		{ "resource": "00453E08123FEB2A", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
