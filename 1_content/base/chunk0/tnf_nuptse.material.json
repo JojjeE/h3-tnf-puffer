@@ -24,15 +24,15 @@
 								"Decal Blend Roughness": 0,
 								"Decal Blend Emission": 0,
 								"Alpha Test Enabled": 0,
-								"Alpha Reference": 255,
+								"Alpha Reference": 0,
 								"Fog Enabled": 1,
 								"Culling Mode": "DontCare",
 								"Z Bias": 0,
-								"Z Offset": 0.0,
-								"Subsurface Red": 2.299999952316284,
-								"Subsurface Green": 1.399999976158142,
-								"Subsurface Blue": 1.100000023841858,
-								"Subsurface Value": 10.0
+								"Z Offset": 0,
+								"Subsurface Red": 0,
+								"Subsurface Green": 0,
+								"Subsurface Blue": 0,
+								"Subsurface Value": 0
 							}
 						],
 						"Texture": [
@@ -89,37 +89,37 @@
 							{
 								"Name": "gm_mTransform2D_01",
 								"Enabled": 1,
-								"Value": [1.0, -0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+								"Value": [1, 0, 0, 0, 0, 1, 0, 0]
 							},
 							{
 								"Name": "ShaderLOD_Distance",
 								"Enabled": 1,
-								"Value": 40.0
+								"Value": 40
 							},
 							{
 								"Name": "ShaderLOD_FadeLength",
 								"Enabled": 1,
-								"Value": 5.0
+								"Value": 5
 							},
 							{
 								"Name": "Specular_Multiplier_Value",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "gm_mTransform2D_02",
 								"Enabled": 1,
-								"Value": [1.0, -0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+								"Value": [1, 0, 0, 0, 0, 1, 0, 0]
 							},
 							{
 								"Name": "ConstantVector1D_02_Value",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0
 							},
 							{
 								"Name": "ConstantVector1D_06_Value",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "ConstantVector1D_03_Value",
@@ -129,17 +129,17 @@
 							{
 								"Name": "ConstantVector1D_04_Value",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0.5199999809265137
 							},
 							{
 								"Name": "ConstantVector1D_05_Value",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "ShaderLOD_Gloss",
 								"Enabled": 1,
-								"Value": 0.2199999988079071
+								"Value": 0.4699999988079071
 							},
 							{
 								"Name": "ConstantVector1D_01_Value",
@@ -149,37 +149,37 @@
 							{
 								"Name": "ColorSaturation_03_Saturation",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "HueShift_03_Amount",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0
 							},
 							{
 								"Name": "ColorSaturation_02_Saturation",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "HueShift_02_Amount",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0
 							},
 							{
 								"Name": "ColorSaturation_01_Saturation",
 								"Enabled": 1,
-								"Value": 1.0
+								"Value": 1
 							},
 							{
 								"Name": "HueShift_01_Amount",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0
 							},
 							{
 								"Name": "ConstantVector1D_07_Value",
 								"Enabled": 1,
-								"Value": 0.0
+								"Value": 0
 							}
 						],
 						"Color": [
@@ -191,22 +191,22 @@
 							{
 								"Name": "ConstantColorRGB_04_Value",
 								"Enabled": 1,
-								"Value": [1.0, 1.0, 1.0]
+								"Value": [1, 1, 1]
 							},
 							{
 								"Name": "ConstantColorRGB_03_Value",
 								"Enabled": 1,
-								"Value": [1.0, 1.0, 1.0]
+								"Value": [1, 1, 1]
 							},
 							{
 								"Name": "ConstantColorRGB_02_Value",
 								"Enabled": 1,
-								"Value": [0.9764710068702698, 0.9372550249099731, 0.9215689897537231]
+								"Value": [1, 1, 1]
 							},
 							{
 								"Name": "ConstantColorRGB_01_Value",
 								"Enabled": 1,
-								"Value": [1.0, 1.0, 1.0]
+								"Value": [1, 1, 1]
 							}
 						]
 					}
@@ -223,30 +223,30 @@
 			"Texture2D_02": "00453E08123FEB2A",
 			"Texture2D_04": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex"
 		},
-		"ShaderLOD_Distance": 40.0,
-		"ShaderLOD_FadeLength": 5.0,
-		"Specular_Multiplier_Value": 1.0,
-		"ConstantVector1D_02_Value": 0.0,
 		"Color": {
 			"ShaderLOD_Speccolor": [0.21960780024528503, 0.21960780024528503, 0.21960780024528503],
-			"ConstantColorRGB_04_Value": [1.0, 1.0, 1.0],
-			"ConstantColorRGB_03_Value": [1.0, 1.0, 1.0],
-			"ConstantColorRGB_02_Value": [0.9764710068702698, 0.9372550249099731, 0.9215689897537231],
-			"ConstantColorRGB_01_Value": [1.0, 1.0, 1.0]
+			"ConstantColorRGB_04_Value": [1, 1, 1],
+			"ConstantColorRGB_03_Value": [1, 1, 1],
+			"ConstantColorRGB_02_Value": [1, 1, 1],
+			"ConstantColorRGB_01_Value": [1, 1, 1]
 		},
-		"ConstantVector1D_06_Value": 1.0,
+		"ShaderLOD_Distance": 40,
+		"ShaderLOD_FadeLength": 5,
+		"Specular_Multiplier_Value": 1,
+		"ConstantVector1D_02_Value": 0,
+		"ConstantVector1D_06_Value": 1,
 		"ConstantVector1D_03_Value": 0.5,
-		"ConstantVector1D_04_Value": 0.0,
-		"ConstantVector1D_05_Value": 1.0,
-		"ShaderLOD_Gloss": 0.2199999988079071,
+		"ConstantVector1D_04_Value": 0.5199999809265137,
+		"ConstantVector1D_05_Value": 1,
+		"ShaderLOD_Gloss": 0.4699999988079071,
 		"ConstantVector1D_01_Value": 0.5,
-		"ColorSaturation_03_Saturation": 1.0,
-		"HueShift_03_Amount": 0.0,
-		"ColorSaturation_02_Saturation": 1.0,
-		"HueShift_02_Amount": 0.0,
-		"ColorSaturation_01_Saturation": 1.0,
-		"HueShift_01_Amount": 0.0,
-		"ConstantVector1D_07_Value": 0.0
+		"ColorSaturation_03_Saturation": 1,
+		"HueShift_03_Amount": 0,
+		"ColorSaturation_02_Saturation": 1,
+		"HueShift_02_Amount": 0,
+		"ColorSaturation_01_Saturation": 1,
+		"HueShift_01_Amount": 0,
+		"ConstantVector1D_07_Value": 0
 	},
 	"Flags": {
 		"Class": {
