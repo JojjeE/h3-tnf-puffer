@@ -1,4 +1,5 @@
 {
+	"$schema": "../../manifest-schema.json",
 	"id": "Jojje.TNFPuffer",
 	"name": "TNF Puffer",
 	"description": "Now you too can be the driplord. Choose from 6 variants. Install them for Peacock or replace the Snow Festival Suit, or a casual suit of your choice.",
@@ -63,7 +64,7 @@
 					}
 				},
 				{
-					"id": "black-snow",
+					"id": "black-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -76,16 +77,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-casual",
+					"id": "black-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -98,16 +97,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-italian",
+					"id": "black-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -120,16 +117,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-floridafit",
+					"id": "black-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -142,16 +137,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-casualtourist",
+					"id": "black-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -164,10 +157,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -187,9 +178,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -209,9 +198,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -231,9 +218,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -253,15 +238,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-summersuit",
+					"id": "black-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -274,10 +257,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -297,9 +278,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -319,9 +298,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -341,15 +318,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "black-ducky",
+					"id": "black-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -362,10 +337,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -411,7 +384,7 @@
 					}
 				},
 				{
-					"id": "blue-snow",
+					"id": "blue-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -424,16 +397,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-casual",
+					"id": "blue-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -446,16 +417,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-italian",
+					"id": "blue-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -468,16 +437,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-floridafit",
+					"id": "blue-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -490,16 +457,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-casualtourist",
+					"id": "blue-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -512,10 +477,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -535,9 +498,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -557,9 +518,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -579,9 +538,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -601,15 +558,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-summersuit",
+					"id": "blue-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -622,10 +577,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -645,9 +598,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -667,9 +618,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -689,15 +638,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "blue-ducky",
+					"id": "blue-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -710,10 +657,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -759,7 +704,7 @@
 					}
 				},
 				{
-					"id": "green-snow",
+					"id": "green-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -772,16 +717,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-casual",
+					"id": "green-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -794,16 +737,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-italian",
+					"id": "green-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -816,16 +757,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-floridafit",
+					"id": "green-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -838,16 +777,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-casualtourist",
+					"id": "green-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -860,10 +797,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -883,9 +818,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -905,9 +838,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -927,9 +858,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -949,15 +878,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-summersuit",
+					"id": "green-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -970,10 +897,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -993,9 +918,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1015,9 +938,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1037,15 +958,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "green-ducky",
+					"id": "green-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -1058,10 +977,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1108,7 +1025,7 @@
 					}
 				},
 				{
-					"id": "bamn-snow",
+					"id": "bamn-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -1122,16 +1039,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-casual",
+					"id": "bamn-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1145,16 +1060,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-italian",
+					"id": "bamn-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1168,16 +1081,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-floridafit",
+					"id": "bamn-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1191,16 +1102,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-casualtourist",
+					"id": "bamn-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1214,10 +1123,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1238,9 +1145,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1261,9 +1166,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1284,9 +1187,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1307,15 +1208,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-summersuit",
+					"id": "bamn-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1329,10 +1228,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1353,9 +1250,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1376,9 +1271,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1399,15 +1292,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamn-ducky",
+					"id": "bamn-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -1421,10 +1312,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1471,7 +1360,7 @@
 					}
 				},
 				{
-					"id": "bamnred-snow",
+					"id": "bamnred-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -1485,16 +1374,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-casual",
+					"id": "bamnred-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1508,16 +1395,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-italian",
+					"id": "bamnred-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1531,16 +1416,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-floridafit",
+					"id": "bamnred-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1554,16 +1437,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-casualtourist",
+					"id": "bamnred-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1577,10 +1458,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1601,9 +1480,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1624,9 +1501,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1647,9 +1522,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1670,15 +1543,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-summersuit",
+					"id": "bamnred-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1692,10 +1563,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1716,9 +1585,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1739,9 +1606,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1762,15 +1627,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "bamnred-ducky",
+					"id": "bamnred-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -1784,10 +1647,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"thefall\") != Some(\"thefall-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1833,7 +1694,7 @@
 					}
 				},
 				{
-					"id": "thefall-snow",
+					"id": "thefall-snowfestival",
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
@@ -1846,16 +1707,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snow\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snow\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-snowfestival\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-snowfestival\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-casual",
+					"id": "thefall-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1868,16 +1727,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-bangkok\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-italian",
+					"id": "thefall-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1890,16 +1747,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-italian\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-italian\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sapienza\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-floridafit",
+					"id": "thefall-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1912,16 +1767,14 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-floridafit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-floridafit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-miami\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-casualtourist",
+					"id": "thefall-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -1934,10 +1787,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualtourist\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualtourist\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-sanfortuna\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1957,9 +1808,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuave\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuave\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -1979,9 +1828,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersightseeing\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersightseeing\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -2001,9 +1848,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-casualundercover\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-casualundercover\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -2023,15 +1868,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-midnightblack\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-midnightblack\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-summersuit",
+					"id": "thefall-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -2044,10 +1887,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-summersuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-summersuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-marrakesh\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -2067,9 +1908,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-tropicalsuit\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-tropicalsuit\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -2089,9 +1928,7 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-smartcasual\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-smartcasual\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
@@ -2111,15 +1948,13 @@
 						"incompatibleConditions": [
 							{
 								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-raver\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-raver\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
 				},
 				{
-					"id": "thefall-ducky",
+					"id": "thefall-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -2132,10 +1967,8 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-ducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-ducky\")",
-								"explanation": {
-									"english": "This suit replacement is already selected in another option."
-								}
+								"condition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"black\") != Some(\"black-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"blue\") != Some(\"blue-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"green\") != Some(\"green-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamn\") != Some(\"bamn-luckyducky\") && mod_option(\"Jojje.TNFPuffer@1.1.1\", \"bamnred\") != Some(\"bamnred-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
 							}
 						]
 					}
