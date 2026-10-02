@@ -1,0 +1,225 @@
+{
+	"factory": "[unknown:/*/tnf_nuptse.template].pc_entitytype",
+	"blueprint": "[unknown:/*/tnf_nuptse.template].pc_entityblueprint",
+	"subType": "template",
+	"rootEntity": "211079b451561586",
+	"subEntities": {
+		"83a71318ccf9cfef": {
+			"parent": "211079b451561586",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[unknown:/*/tnf_nuptse](bodypart).pc_weightedprim",
+						"type": "normal"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"211079b451561586": {
+			"parent": null,
+			"name": "Jacket_TNF_Puffer",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/specular_a.tex](ascolormap).pc_tex",
+						"type": "normal"
+					}
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_a.tex](ascolormap).pc_tex",
+						"type": "normal"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"type": "normal"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"type": "normal"
+					}
+				}
+			},
+			"inputForwardings": {
+				"ConstantVector1D_06_Value": {
+					"ConstantVector1D_06_Value": ["cafe8dbfeeb4c6dd"]
+				},
+				"ConstantVector1D_04_Value": {
+					"ConstantVector1D_04_Value": ["cafe8dbfeeb4c6dd"]
+				},
+				"ConstantVector1D_01_Value": {
+					"ConstantVector1D_01_Value": ["cafe8dbfeeb4c6dd"]
+				}
+			},
+			"propertyAliases": {
+				"Color_Lining": [
+					{
+						"originalProperty": "ConstantColorRGB_04_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Color_Top": [
+					{
+						"originalProperty": "ConstantColorRGB_03_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Color_Sleeves_Mid": [
+					{
+						"originalProperty": "ConstantColorRGB_02_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"ConstantVector1D_01_Value": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"ConstantVector1D_04_Value": [
+					{
+						"originalProperty": "ConstantVector1D_04_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"ConstantVector1D_06_Value": [
+					{
+						"originalProperty": "ConstantVector1D_06_Value",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Texture2DNormal_01": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Texture2D_01": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Texture2D_02": [
+					{
+						"originalProperty": "Texture2D_02",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				],
+				"Texture2D_03": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafe8dbfeeb4c6dd"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "83a71318ccf9cfef",
+				"ZClothColliderGroupAspect": "83a71318ccf9cfef"
+			}
+		},
+		"cafe8dbfeeb4c6dd": {
+			"parent": "211079b451561586",
+			"name": "tnf_nuptse",
+			"factory": "[unknown:/*/tnf_nuptse.mi].pc_entitytype",
+			"blueprint": "[unknown:/*/tnf_nuptse.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 }
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_02_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["211079b451561586"],
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"quickEntityVersion": 3.2,
+	"extraFactoryReferences": [],
+	"extraBlueprintReferences": [],
+	"comments": []
+}

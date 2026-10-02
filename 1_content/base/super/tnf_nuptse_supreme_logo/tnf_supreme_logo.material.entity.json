@@ -1,0 +1,42 @@
+{
+	"factory": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_entitytype",
+	"blueprint": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_entityblueprint",
+	"material": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_mi",
+	"overrides": {
+		"Texture2D_03": {
+			"type": "texture",
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex"
+		},
+		"Texture2DCompoundNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex"
+		},
+		"Texture2DNormal_01": {
+			"type": "texture",
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/normal_a.tex](asnormalmap).pc_tex"
+		},
+		"Texture2D_01": {
+			"type": "texture",
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/diffuse_a.tex](ascolormap).pc_tex"
+		},
+		"Texture2D_04": {
+			"type": "texture",
+			"value": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex"
+		},
+		"ConstantColorRGB_01_Value": {
+			"type": "color",
+			"value": "ffffff"
+		},
+		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_05_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_02_Value": { "type": "float", "value": 0.5 },
+		"ConstantVector1D_01_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_07_Value": { "type": "float", "value": 0.3 },
+		"Lerp_06_s": { "type": "float", "value": 1.0 },
+		"Lerp_07_s": { "type": "float", "value": 1.0 },
+		"Lerp_08_s": { "type": "float", "value": 1.0 },
+		"Lerp_09_s": { "type": "float", "value": 1.0 }
+	}
+}

@@ -9,7 +9,7 @@
 	"url": "https://github.com/JojjeE/h3-tnf-puffer",
 	"conditions": { "supportedGames": ["h3"] },
 	"data": {
-		"contentFolders": ["base"],
+		"contentFolders": ["1_content/base"],
 		"localisation": {
 			"UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC": {
 				"english": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
@@ -43,9 +43,8 @@
 					"description": "Install the black jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/black/addon",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/addon",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/addon"],
 						"localisation": {
@@ -68,9 +67,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/snowfestival",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/snowfestival",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/snowfestival"]
 					},
@@ -88,9 +86,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/black/bangkok",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/bangkok",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/bangkok"]
 					},
@@ -108,9 +105,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/black/sapienza",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/sapienza",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/sapienza"]
 					},
@@ -128,9 +124,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/black/miami",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/miami",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/miami"]
 					},
@@ -148,9 +143,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/black/sanfortuna",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/sanfortuna",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/sanfortuna"]
 					},
@@ -168,9 +162,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/summersuave",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/summersuave",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/summersuave"]
 					},
@@ -188,9 +181,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/summersightseeing",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/summersightseeing",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/summersightseeing"]
 					},
@@ -208,9 +200,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"replace/black/casualundercover",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/casualundercover",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/casualundercover"]
 					},
@@ -228,9 +219,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/midnightblack",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/midnightblack",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/midnightblack"]
 					},
@@ -248,9 +238,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/black/marrakesh",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/marrakesh",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/marrakesh"]
 					},
@@ -268,9 +257,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/tropicalsuit",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/tropicalsuit",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/tropicalsuit"]
 					},
@@ -288,9 +276,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/black/smartcasual",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/smartcasual",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/smartcasual"]
 					},
@@ -308,9 +295,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/black/raver",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/raver",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/raver"]
 					},
@@ -328,9 +314,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/black/luckyducky",
-							"mats/black",
-							"mats/normal"
+							"2_patches/replace/black/luckyducky",
+							"1_content/outfits/black"
 						],
 						"blobFolders": ["blobs/black/luckyducky"]
 					},
@@ -363,9 +348,8 @@
 					"description": "Install the blue jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/blue/addon",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/addon",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/addon"],
 						"localisation": {
@@ -388,9 +372,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/snowfestival",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/snowfestival",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/snowfestival"]
 					},
@@ -408,9 +391,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/blue/bangkok",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/bangkok",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/bangkok"]
 					},
@@ -428,9 +410,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/blue/sapienza",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/sapienza",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/sapienza"]
 					},
@@ -448,9 +429,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/blue/miami",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/miami",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/miami"]
 					},
@@ -468,9 +448,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/blue/sanfortuna",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/sanfortuna",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/sanfortuna"]
 					},
@@ -488,9 +467,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/summersuave",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/summersuave",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/summersuave"]
 					},
@@ -508,9 +486,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/summersightseeing",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/summersightseeing",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/summersightseeing"]
 					},
@@ -528,9 +505,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"replace/blue/casualundercover",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/casualundercover",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/casualundercover"]
 					},
@@ -548,9 +524,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/midnightblack",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/midnightblack",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/midnightblack"]
 					},
@@ -568,9 +543,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/blue/marrakesh",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/marrakesh",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/marrakesh"]
 					},
@@ -588,9 +562,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/tropicalsuit",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/tropicalsuit",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/tropicalsuit"]
 					},
@@ -608,9 +581,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/blue/smartcasual",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/smartcasual",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/smartcasual"]
 					},
@@ -628,9 +600,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/blue/raver",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/raver",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/raver"]
 					},
@@ -648,9 +619,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/blue/luckyducky",
-							"mats/blue",
-							"mats/normal"
+							"2_patches/replace/blue/luckyducky",
+							"1_content/outfits/blue"
 						],
 						"blobFolders": ["blobs/blue/luckyducky"]
 					},
@@ -683,9 +653,8 @@
 					"description": "Install the green jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/green/addon",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/addon",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/addon"],
 						"localisation": {
@@ -708,9 +677,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/snowfestival",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/snowfestival",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/snowfestival"]
 					},
@@ -728,9 +696,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/green/bangkok",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/bangkok",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/bangkok"]
 					},
@@ -748,9 +715,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/green/sapienza",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/sapienza",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/sapienza"]
 					},
@@ -768,9 +734,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/green/miami",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/miami",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/miami"]
 					},
@@ -788,9 +753,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/green/sanfortuna",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/sanfortuna",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/sanfortuna"]
 					},
@@ -808,9 +772,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/summersuave",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/summersuave",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/summersuave"]
 					},
@@ -828,9 +791,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/summersightseeing",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/summersightseeing",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/summersightseeing"]
 					},
@@ -848,9 +810,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"replace/green/casualundercover",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/casualundercover",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/casualundercover"]
 					},
@@ -868,9 +829,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/midnightblack",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/midnightblack",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/midnightblack"]
 					},
@@ -888,9 +848,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/green/marrakesh",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/marrakesh",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/marrakesh"]
 					},
@@ -908,9 +867,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/tropicalsuit",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/tropicalsuit",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/tropicalsuit"]
 					},
@@ -928,9 +886,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/green/smartcasual",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/smartcasual",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/smartcasual"]
 					},
@@ -948,9 +905,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/green/raver",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/raver",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/raver"]
 					},
@@ -968,9 +924,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/green/luckyducky",
-							"mats/green",
-							"mats/normal"
+							"2_patches/replace/green/luckyducky",
+							"1_content/outfits/green"
 						],
 						"blobFolders": ["blobs/green/luckyducky"]
 					},
@@ -1003,10 +958,8 @@
 					"description": "Install the black \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/addon",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/addon",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/addon"],
 						"localisation": {
@@ -1029,10 +982,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/snowfestival",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/snowfestival",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/snowfestival"]
 					},
@@ -1050,10 +1001,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/bangkok",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/bangkok",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/bangkok"]
 					},
@@ -1071,10 +1020,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/sapienza",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/sapienza",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/sapienza"]
 					},
@@ -1092,10 +1039,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/miami",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/miami",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/miami"]
 					},
@@ -1113,10 +1058,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/sanfortuna",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/sanfortuna",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/sanfortuna"]
 					},
@@ -1134,10 +1077,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/summersuave",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/summersuave",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/summersuave"]
 					},
@@ -1155,10 +1096,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/summersightseeing",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/summersightseeing",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/summersightseeing"]
 					},
@@ -1176,10 +1115,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/casualundercover",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/casualundercover",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/casualundercover"]
 					},
@@ -1197,10 +1134,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/midnightblack",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/midnightblack",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/midnightblack"]
 					},
@@ -1218,10 +1153,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/marrakesh",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/marrakesh",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/marrakesh"]
 					},
@@ -1239,10 +1172,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/tropicalsuit",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/tropicalsuit",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/tropicalsuit"]
 					},
@@ -1260,10 +1191,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/smartcasual",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/smartcasual",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/smartcasual"]
 					},
@@ -1281,10 +1210,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/raver",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/raver",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/raver"]
 					},
@@ -1302,10 +1229,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/bamn/luckyducky",
-							"mats/BAMN",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamn/luckyducky",
+							"1_content/outfits/BAMN"
 						],
 						"blobFolders": ["blobs/bamn/luckyducky"]
 					},
@@ -1338,10 +1263,8 @@
 					"description": "Install the red \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/addon",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/addon",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/addon"],
 						"localisation": {
@@ -1364,10 +1287,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/snowfestival",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/snowfestival",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/snowfestival"]
 					},
@@ -1385,10 +1306,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/bangkok",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/bangkok",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/bangkok"]
 					},
@@ -1406,10 +1325,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/sapienza",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/sapienza",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/sapienza"]
 					},
@@ -1427,10 +1344,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/miami",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/miami",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/miami"]
 					},
@@ -1448,10 +1363,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/sanfortuna",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/sanfortuna",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/sanfortuna"]
 					},
@@ -1469,10 +1382,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/summersuave",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/summersuave",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/summersuave"]
 					},
@@ -1490,10 +1401,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme",
-							"replace/bamnred/summersightseeing"
+							"1_content/outfits/BAMN_red",
+							"2_patches/replace/bamnred/summersightseeing"
 						],
 						"blobFolders": ["blobs/bamnred/summersightseeing"]
 					},
@@ -1511,10 +1420,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme",
-							"replace/bamnred/casualundercover"
+							"1_content/outfits/BAMN_red",
+							"2_patches/replace/bamnred/casualundercover"
 						],
 						"blobFolders": ["blobs/bamnred/casualundercover"]
 					},
@@ -1532,10 +1439,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/midnightblack",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/midnightblack",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/midnightblack"]
 					},
@@ -1553,10 +1458,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/marrakesh",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/marrakesh",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/marrakesh"]
 					},
@@ -1574,10 +1477,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/tropicalsuit",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/tropicalsuit",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/tropicalsuit"]
 					},
@@ -1595,10 +1496,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/smartcasual",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/smartcasual",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/smartcasual"]
 					},
@@ -1616,10 +1515,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/raver",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/raver",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/raver"]
 					},
@@ -1637,10 +1534,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/bamnred/luckyducky",
-							"mats/BAMN_red",
-							"mats/BAMN_shirt",
-							"mats/normal_supreme"
+							"2_patches/replace/bamnred/luckyducky",
+							"1_content/outfits/BAMN_red"
 						],
 						"blobFolders": ["blobs/bamnred/luckyducky"]
 					},
@@ -1673,9 +1568,8 @@
 					"description": "Install the \"Fall of the Rebel Angels\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/addon",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/addon",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/addon"],
 						"localisation": {
@@ -1698,9 +1592,8 @@
 					"name": "Snow Festival Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/snowfestival",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/snowfestival",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/snowfestival"]
 					},
@@ -1718,9 +1611,8 @@
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/bangkok",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/bangkok",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/bangkok"]
 					},
@@ -1738,9 +1630,8 @@
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/sapienza",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/sapienza",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/sapienza"]
 					},
@@ -1758,9 +1649,8 @@
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/miami",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/miami",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/miami"]
 					},
@@ -1778,9 +1668,8 @@
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/sanfortuna",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/sanfortuna",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/sanfortuna"]
 					},
@@ -1798,9 +1687,8 @@
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/summersuave",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/summersuave",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/summersuave"]
 					},
@@ -1818,9 +1706,8 @@
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/summersightseeing",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/summersightseeing",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/summersightseeing"]
 					},
@@ -1838,9 +1725,8 @@
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/casualundercover",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/casualundercover",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/casualundercover"]
 					},
@@ -1858,9 +1744,8 @@
 					"name": "Midnight Black Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/midnightblack",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/midnightblack",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/midnightblack"]
 					},
@@ -1878,9 +1763,8 @@
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/marrakesh",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/marrakesh",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/marrakesh"]
 					},
@@ -1898,9 +1782,8 @@
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/tropicalsuit",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/tropicalsuit",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/tropicalsuit"]
 					},
@@ -1918,9 +1801,8 @@
 					"name": "Smart Casual Suit",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/smartcasual",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/smartcasual",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/smartcasual"]
 					},
@@ -1938,9 +1820,8 @@
 					"name": "The Raver",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/raver",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/raver",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/raver"]
 					},
@@ -1958,9 +1839,8 @@
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
-							"replace/thefall/luckyducky",
-							"mats/thefall",
-							"mats/normal_supreme"
+							"2_patches/replace/thefall/luckyducky",
+							"1_content/outfits/thefall"
 						],
 						"blobFolders": ["blobs/thefall/luckyducky"]
 					},

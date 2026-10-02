@@ -1,0 +1,107 @@
+{
+	"id": "[unknown:/*/tnf_nuptse.mi].pc_mi",
+	"name": "tnf_nuptse.mi",
+	"type": "Standard",
+	"class": "[[assembly:/_pro/environment/materialclasses/basicmaterial_colormask.materialclass].fx](dx11).pc_mate",
+	"descriptor": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_char_cloth.template?/fx_md_char_cloth.entitytemplate].pc_entityresource",
+	"classFlags": {
+		"lighting": true,
+		"primStandard": true,
+		"usesDefaultVS": true,
+		"usesSimpleShader": true
+	},
+	"instanceFlags": { "opaqueLit": true, "disableShaderLod": true },
+	"renderState": {
+		"enabled": true,
+		"blendEnabled": false,
+		"decalBlendDiffuse": 0,
+		"decalBlendNormal": 0,
+		"decalBlendSpecular": 0,
+		"decalBlendRoughness": 0,
+		"decalBlendEmission": 0,
+		"alphaTestEnabled": false,
+		"alphaReference": 0,
+		"fogEnabled": true,
+		"cullingMode": "DontCare",
+		"zBias": 0,
+		"zOffset": 0.0,
+		"subsurfaceRed": 0.0,
+		"subsurfaceGreen": 0.0,
+		"subsurfaceBlue": 0.0,
+		"subsurfaceValue": 0.0
+	},
+	"properties": {
+		"gm_mTransform2D_01": {
+			"enabled": true,
+			"value": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+		},
+		"ShaderLOD_Distance": { "enabled": true, "value": 40.0 },
+		"ShaderLOD_FadeLength": { "enabled": true, "value": 5.0 },
+		"Specular_Multiplier_Value": { "enabled": true, "value": 1.0 },
+		"gm_mTransform2D_02": {
+			"enabled": true,
+			"value": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+		},
+		"ConstantVector1D_02_Value": { "enabled": true, "value": 0.0 },
+		"ConstantVector1D_06_Value": { "enabled": true, "value": 1.0 },
+		"ConstantVector1D_03_Value": { "enabled": true, "value": 0.5 },
+		"ConstantVector1D_04_Value": { "enabled": true, "value": 0.52 },
+		"ConstantVector1D_05_Value": { "enabled": true, "value": 1.0 },
+		"ShaderLOD_Gloss": { "enabled": true, "value": 0.47 },
+		"ConstantVector1D_01_Value": { "enabled": true, "value": 0.5 },
+		"ColorSaturation_03_Saturation": { "enabled": true, "value": 1.0 },
+		"HueShift_03_Amount": { "enabled": true, "value": 0.0 },
+		"ColorSaturation_02_Saturation": { "enabled": true, "value": 1.0 },
+		"HueShift_02_Amount": { "enabled": true, "value": 0.0 },
+		"ColorSaturation_01_Saturation": { "enabled": true, "value": 1.0 },
+		"HueShift_01_Amount": { "enabled": true, "value": 0.0 },
+		"ConstantVector1D_07_Value": { "enabled": true, "value": 0.0 },
+		"mapTexture2D_01": {
+			"enabled": true,
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"type": "AsColorMap"
+		},
+		"mapTexture2D_03": {
+			"enabled": true,
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/specular_a.tex](ascolormap).pc_tex",
+			"type": "AsColorMap"
+		},
+		"mapTexture2DCompoundNormal_01": {
+			"enabled": true,
+			"value": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"type": "AsCompoundNormal"
+		},
+		"mapTexture2DNormal_01": {
+			"enabled": true,
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"type": "AsNormalMap"
+		},
+		"mapTexture2D_02": {
+			"enabled": true,
+			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_a.tex](ascolormap).pc_tex",
+			"type": "AsColorMap"
+		},
+		"mapTexture2D_04": {
+			"enabled": true,
+			"value": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"type": "AsColorMap"
+		},
+		"ShaderLOD_Speccolor": { "enabled": true, "value": "#383838" },
+		"ConstantColorRGB_04_Value": {
+			"enabled": true,
+			"value": "#ffffff"
+		},
+		"ConstantColorRGB_03_Value": {
+			"enabled": true,
+			"value": "#ffffff"
+		},
+		"ConstantColorRGB_02_Value": {
+			"enabled": true,
+			"value": "#ffffff"
+		},
+		"ConstantColorRGB_01_Value": {
+			"enabled": true,
+			"value": "#ffffff"
+		}
+	}
+}
