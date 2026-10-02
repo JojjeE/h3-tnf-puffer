@@ -428,7 +428,7 @@
 				"m_RuntimeNetworkResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/animationnetworks/hitman01/disguiseacts/safezones/disguisesafezonebodyguardstand.aln].pc_rtn",
+						"resource": "[assembly:/animationnetworks/hitman01/idles/idletest.aln].pc_rtn",
 						"type": "weak"
 					}
 				}
