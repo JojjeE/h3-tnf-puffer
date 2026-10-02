@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_NAME_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "TNF Nuptse Jacket (Black)",
+			"french": "Veste TNF Nuptse (Noir)",
+			"german": "TNF Nuptse Jacke (Schwarz)",
+			"italian": "Giacca TNF Nuptse (Nero)",
+			"russian": "Куртка TNF Nuptse (Черный)",
+			"spanish": "Chaqueta TNF Nuptse (Negra)"
+		},
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_DESCRIPTION_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+			"french": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+			"german": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+			"italian": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+			"russian": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+			"spanish": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+		}
+	}
+}

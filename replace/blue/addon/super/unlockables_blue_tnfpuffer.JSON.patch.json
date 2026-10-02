@@ -1,0 +1,10 @@
+{
+	"patch": [
+		{
+			"op": "add",
+			"path": "/PACKAGE_STARTING_PACKAGE/Properties/Unlocks/-",
+			"value": "TOKEN_OUTFIT_HERO_TNF_PUFFER_BLUE"
+		}
+	],
+	"id": "[assembly:/_pro/online/default/offlineconfig/config.unlockables].pc_unlockables"
+}

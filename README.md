@@ -4,27 +4,19 @@ The preferred template for Simple Mod Framework mods.
 
 ## Why should I use this?
 
-### Better changelog handling
-
-Changelogs in mod updates are often not particularly helpful to users. Let's look at an example: Notex's [Portable Chair mod](https://www.nexusmods.com/hitman3/mods/453). Initially, the mod was released (like all mods) at version `1.0.0`. It was then given an update to `1.1.0` with the following changes:
-
-![Portable Chair 1.1.0 changelog](https://hitman-resources.netlify.app/assets/portablechair-1.1.0.png)
-
-It was then given another update, to `1.2.0`, with the following changes:
-
-![Portable Chair 1.2.0 changelog](https://hitman-resources.netlify.app/assets/portablechair-1.2.0.png)
-
-If Portable Chair didn't use the `smf-mod` template, a user on `1.0.0` would only see that last changelog, and would be completely unaware of the changes from `1.1.0` (which are "skipped over"). Because it uses the template, the Simple Mod Framework is able to use the GitHub releases published automatically to find the older changelog and merge it with the newer one. Because of that, users of the mod are able to see all the changes which lead up to the version they're updating to, not just the ones from the last version.
-
-### Other features
-
+-   Changelog support
+    -   The mod template automatically generates changelogs for each version, and SMF displays these to users, showing all changes since the user last updated your mod
 -   Automatic versioning
-    -   Versions of the mod are automatically zipped, releases are automatically made and the mod update JSON are automatically updated
+    -   Versions of the mod are automatically zipped and releases are automatically made
     -   Conventional commits mean that you don't have to do anything; any change you make to your mod can automatically be converted into a release with the versions all handled for you
         -   This also means that your versions are fully compatible with Semantic Versioning, which improves the framework's ability to know how your mod has changed
     -   Your mod's manifest will be edited for you; you don't have to set anything up yourself
+-   Automatic Nexus Mods upload
+    -   If you have Nexus Mods Premium, you can supply an API key to automatically publish new versions of the mod to Nexus alongside each GitHub release, including updating the changelog
 -   Automatic formatting
-    -   Prettier is run before each commit, and a pre-made configuration for it is included
+    -   Biome is run before each commit, and a pre-made configuration for it is included
+-   Better entity handling for Git
+    -   The template includes a custom Git merge driver for QuickEntity files that reduces merge conflicts when entity.json files are changed at the same time
 -   LGPLv3 license
     -   Mods created with this template are permissively licensed; anyone can alter your mod, but they have to give credit and provide a list of what they have changed
 -   Automatic updating of `frameworkVersion`
@@ -45,13 +37,11 @@ GitHub is a place for hosting Git repositories, which lets you more easily see b
 
 You'll need Git, obviously, and preferably also a GUI client if you aren't experienced with Git's command line interface. GitHub Desktop is recommended, but VS Code includes its own as well (though it can be unintuitive at times and functions more as a list of Git commands than as an easy-to-use interface).
 
-You'll also want Node.js for formatting and using other tools (QuickEntity Editor, for example, requires it for game-file extensions). You can download the latest release from [here](https://nodejs.org/en) - either LTS or Current is fine.
-
 ### Cloning the template
 
-To get started, click the green "Use this template" button on GitHub and create a new repository. Give it whatever name you like and make it public or private (if you want to make it private, then make sure to change it back to public when the mod is released, else there's no point in this template). You can then clone the repository directly into your Mods folder (so the repository gets its own folder under Mods where you can work).
+To get started, click the green "Use this template" button on GitHub and create a new repository. Give it whatever name you like and make it public or private (if you want to make it private, then make sure to change it back to public when the mod is released, else there's no point in this template). You can then clone the repository directly into your Mods folder (so the repository gets its own folder under Mods where you can work) - make sure to rename the created folder according to the correct mod ID.
 
-Once you've done that, go to the new folder in your Mods folder and run the commands `npm install` and `npm run prepare` to set up automatic formatting.
+Once you've done that, go to the new folder in your Mods folder and run the command `.github/setup` to set up automatic formatting and the custom Git merger.
 
 ### Making a new mod
 
@@ -59,13 +49,13 @@ First, edit `manifest.json` to use the correct mod ID and create a commit along 
 
 An important note: the version for the mod starts at `0.1.0`, which means the mod is in development - you can make as many changes as you like at `0.x.x`. When you finalise the mod for its first release, add an exclamation mark before the `:` (like `feat!: final feature`) and the version will automatically be bumped to `1.0.0`.
 
-Don't worry about updating your manifest's version or `updateCheck` property; the template will configure all that for you. A tip for mod releases - whenever you want to push an update to Nexus, you can just download the `mod.framework.zip` file on the GitHub release generated by the template and upload it to Nexus, which saves having to do it yourself.
+Don't worry about updating your manifest's version or `url` property; the template will configure all that for you. A tip for mod releases - whenever you want to push an update to Nexus, you can just download the `mod.framework.zip` file on the GitHub release generated by the template and upload it to Nexus, which saves having to do it yourself.
 
 ### Transferring an existing mod
 
 If you're looking to integrate this into an existing mod you have, copy everything from that mod over to this template, create a commit named something like `chore: transfer existing mod` and then tag that commit with the currently released version of the mod (the initial commit will still automatically be tagged 0.1.0, which is fine). For example, a mod which is currently at 1.1.0 would be copied over, a commit containing the current mod version would be created under whatever name, and that commit would be tagged `1.1.0`.
 
-Don't worry about updating your manifest's version or `updateCheck` property; the template will configure all that for you.
+Don't worry about updating your manifest's version or `url` property; the template will configure all that for you.
 
 ### How to make commits
 
@@ -100,3 +90,33 @@ The result of this would be a changelog like this:
     -   new feature 1
 -   Improvements
     -   some improvement
+
+### Miscellaneous features
+
+#### Nexus Mods upload
+
+If you have Nexus Mods Premium, you can supply an API key to the template as a GitHub Actions secret to enable it to automatically update your mod on Nexus.
+
+First, acquire your personal API key from the [Nexus Mods settings page](https://www.nexusmods.com/settings/api-keys). Then, add a repository secret under "Actions secrets and variables" (`https://github.com/<your-repo>/settings/secrets/actions`) with the name `NEXUS_API_KEY` and paste your API key.
+
+To configure which mod and file to upload to, go to the Variables section and add two repository variables `NEXUS_MOD_ID` and `NEXUS_FILE_ID`, containing the unique mod ID and file ID respectively. You can find these values in the Advanced section of the Files tab:
+
+![Nexus Mods Advanced link](https://github.com/Nexus-Mods/upload-action/blob/main/docs/images/modpage.png?raw=true)
+
+That's it! A new version of the file will automatically be uploaded whenever a GitHub release is created.
+
+You can configure this further with the following variables:
+- `NEXUS_ARCHIVE_EXISTING_VERSION`: set to `true` to automatically archive older versions of the mod (disabled by default)
+- `NEXUS_SHOW_REQUIREMENTS_POPUP`: set to `true` to show users the requirements popup before downloading the mod from the Nexus Mods website (disabled by default)
+
+#### Excluding files from the mod ZIP
+
+The `.modignore` file in the root of the mod can be used to exclude files from the final ZIP that users download. For example, you could add a `*.psd` entry to exclude all Photoshop source files, reducing the mod's filesize.
+
+#### Formatter
+
+The initial setup command installs a pre-commit hook that runs the Biome formatter. The configuration for this is located in the `.github` folder - you can customise it as you wish.
+
+#### Updating the template
+
+If the template has received updates that you want to incorporate into your mod repository, just delete and replace the `.github` folder - it contains everything to do with the template.
