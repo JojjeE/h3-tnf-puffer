@@ -40,7 +40,7 @@
 				{
 					"id": "black-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the black jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the black jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/black/addon",
@@ -345,7 +345,7 @@
 				{
 					"id": "blue-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the blue jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the blue jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/blue/addon",
@@ -650,7 +650,7 @@
 				{
 					"id": "green-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the green jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the green jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/green/addon",
@@ -955,7 +955,7 @@
 				{
 					"id": "bamn-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the black \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the black \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/bamn/addon",
@@ -1260,7 +1260,7 @@
 				{
 					"id": "bamnred-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the red \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the red \"By Any Means Necessary\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/bamnred/addon",
@@ -1565,7 +1565,7 @@
 				{
 					"id": "thefall-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the \"Fall of the Rebel Angels\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the \"Fall of the Rebel Angels\" jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/thefall/addon",
@@ -1870,7 +1870,7 @@
 				{
 					"id": "custom-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the custom jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the custom jacket to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/custom/addon",
