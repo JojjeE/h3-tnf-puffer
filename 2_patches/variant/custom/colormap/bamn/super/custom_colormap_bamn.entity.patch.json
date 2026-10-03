@@ -1,0 +1,137 @@
+{
+  "factory": "0086F560D113EDB3",
+  "blueprint": "0060426CF5BFE749",
+  "patch": [
+    {
+      "PatchEntity": [
+        "cafe73485f44ee00",
+        {
+          "PatchPropertyValue": [
+            "Texture2D_02",
+            {
+              "Set": {
+                "type": "ZRuntimeResourceID",
+                "value": {
+                  "resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/colormap_b.tex](ascolormap).pc_tex",
+                  "type": "normal"
+                }
+              }
+            },
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "PatchEntity": [
+        "98e5c3dd54a75882",
+        {
+          "PatchPropertyValue": [
+            "m_aBodyParts",
+            {
+              "ArrayPatch": [
+                {
+                  "type": "add",
+                  "before": [],
+                  "after": [
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feed3ef9b6840b5e"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feed4efaf8ed3652"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "cafe73485f44ee00"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "cafed18e4d433f88"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feedbdd7d99dd741"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feed525903dd26fa"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feed6a508c7536c5"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feed19b0298434cd"
+                      },
+                      0
+                    ],
+                    [
+                      {
+                        "type": "SEntityTemplateReference",
+                        "value": "feeda40f2cf2e183"
+                      },
+                      0
+                    ]
+                  ],
+                  "item": {
+                    "type": "SEntityTemplateReference",
+                    "value": "cafe2df32074fc02"
+                  }
+                }
+              ]
+            },
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe2df32074fc02",
+        {
+          "parent": "98e5c3dd54a75882",
+          "name": "TNF_Supreme_Logos",
+          "factory": "[modules:/zbodypartentity.class].pc_entitytype",
+          "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+          "properties": {
+            "m_pMeshResource": {
+              "type": "ZRuntimeResourceID",
+              "value": {
+                "resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/geometry/agent47_outfits.wl2?/tnf_nuptse_supreme_logo.weightedprim](bodypart).pc_weightedprim",
+                "type": "normal"
+              }
+            },
+            "m_IsHiddenInVR": { "type": "bool", "value": true }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 7
+}
+

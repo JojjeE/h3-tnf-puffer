@@ -2207,6 +2207,60 @@
 							"image": "custom_color_jacket_sleeve_logo.jpg"
 						}
 					]
+				},
+				{
+					"type": "optionGroup",
+					"id": "custom-textures",
+					"name": "Textures",
+					"description": "Change textures.",
+					"options": [
+						{
+							"type": "selection",
+							"name": "Diffuse",
+							"id": "custom-diffuse",
+							"defaultValue": "custom-diffuse-stock",
+							"options": [
+								{
+									"id": "custom-diffuse-stock",
+									"name": "Standard",
+									"description": "Standard diffuse texture.",
+									"image": "custom_color_jacket_mid.jpg"
+								},
+								{
+									"id": "custom-diffuse-camo",
+									"name": "Camo",
+									"description": "Camo diffuse texture.",
+									"image": "custom_diffuse_camo.jpg",
+									"data": {
+										"contentFolders": ["2_patches/variant/custom/diffuse/camo"]
+									}
+								}
+							]
+						},
+						{
+							"type": "selection",
+							"name": "Colormap",
+							"id": "custom-colormap",
+							"defaultValue": "custom-colormap-stock",
+							"options": [
+								{
+									"id": "custom-colormap-stock",
+									"name": "Standard",
+									"description": "Standard colormap texture.",
+									"image": "custom_color_jacket_mid.jpg"
+								},
+								{
+									"id": "custom-colormap-bamn",
+									"name": "\"By Any Means Necessary\"",
+									"description": "\"By Any Means Necessary\" colormap texture.",
+									"image": "custom_colormap_bamn.jpg",
+									"data": {
+										"contentFolders": ["2_patches/variant/custom/colormap/bamn"]
+									}
+								}
+							]
+						}
+					]
 				}
 			],
 			"displayCondition": "mod_option(\"Jojje.TNFPuffer@1.1.1\", \"custom\") != Some(\"custom-dni\")"

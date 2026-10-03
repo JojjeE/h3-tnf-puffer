@@ -1,0 +1,28 @@
+{
+  "factory": "0086F560D113EDB3",
+  "blueprint": "0060426CF5BFE749",
+  "patch": [
+    {
+      "PatchEntity": [
+        "cafe73485f44ee00",
+        {
+          "PatchPropertyValue": [
+            "Texture2D_01",
+            {
+              "Set": {
+                "type": "ZRuntimeResourceID",
+                "value": {
+                  "resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/diffuse_camo.tex](ascolormap).pc_tex",
+                  "type": "normal"
+                }
+              }
+            },
+            false
+          ]
+        }
+      ]
+    }
+  ],
+  "patchVersion": 7
+}
+
