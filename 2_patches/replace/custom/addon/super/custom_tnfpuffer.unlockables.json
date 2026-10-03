@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_TNF_PUFFER_CUSTOM": {
+		"Id": "TOKEN_OUTFIT_HERO_TNF_PUFFER_CUSTOM",
+		"Guid": "9cac4688-4e49-41ab-9569-d01ab66fdeda",
+		"Type": "disguise",
+		"Subtype": "coats",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "1d2a83a9-5daf-422b-9c59-8d70de8832fd",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

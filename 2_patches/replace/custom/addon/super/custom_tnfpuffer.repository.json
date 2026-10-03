@@ -1,0 +1,14 @@
+{
+	"1d2a83a9-5daf-422b-9c59-8d70de8832fd": {
+		"ID_": "1d2a83a9-5daf-422b-9c59-8d70de8832fd",
+		"CommonName": "CHAR_Global_Hero_TNFPuffer_Custom_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_TNFPuffer_custom.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_TNF_PUFFER_CUSTOM_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_TNF_PUFFER_CUSTOM"
+	}
+}

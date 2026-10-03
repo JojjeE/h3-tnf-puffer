@@ -1,5 +1,5 @@
 {
-	"id": "[unknown:/*/tnf_nuptse_logos.mi].pc_mi",
+	"id": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse_logos.mi].pc_mi",
 	"name": "tnf_nuptse_logos.mi",
 	"type": "Standard",
 	"class": "[[assembly:/_pro/environment/materialclasses/basicmaterial_translucent_colormask.materialclass].fx](dx11).pc_mate",
@@ -64,7 +64,7 @@
 		"ConstantVector1D_10_Value": { "enabled": true, "value": 0.5 },
 		"mapTexture2DNormal_01": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"type": "AsNormalMap"
 		},
 		"mapTexture2DCompoundNormal_01": {
@@ -74,17 +74,17 @@
 		},
 		"mapTexture2D_02": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/colormap_a.tex](ascolormap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/colormap_a.tex](ascolormap).pc_tex",
 			"type": "AsColorMap"
 		},
 		"mapTexture2D_01": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"type": "AsColorMap"
 		},
 		"mapTexture2D_03": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex",
 			"type": "AsColorMap"
 		},
 		"mapTexture2D_05": {

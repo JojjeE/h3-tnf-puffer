@@ -1,6 +1,6 @@
 {
-	"factory": "[unknown:/*/tnf_nuptse.template].pc_entitytype",
-	"blueprint": "[unknown:/*/tnf_nuptse.template].pc_entityblueprint",
+	"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entitytype",
+	"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entityblueprint",
 	"subType": "template",
 	"rootEntity": "211079b451561586",
 	"subEntities": {
@@ -13,7 +13,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/tnf_nuptse](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/geometry/agent47_outfits.wl2?/tnf_nuptse.weightedprim](bodypart).pc_weightedprim",
 						"type": "normal"
 					}
 				},
@@ -45,28 +45,28 @@
 				"Texture2D_03": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/specular_a.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/specular_a.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				},
 				"Texture2D_02": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_a.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/colormap_a.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				},
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/diffuse_a.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				},
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/normal_a.tex](asnormalmap).pc_tex",
 						"type": "normal"
 					}
 				}
@@ -152,8 +152,8 @@
 		"cafe8dbfeeb4c6dd": {
 			"parent": "211079b451561586",
 			"name": "tnf_nuptse",
-			"factory": "[unknown:/*/tnf_nuptse.mi].pc_entitytype",
-			"blueprint": "[unknown:/*/tnf_nuptse.mi].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse.mi].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

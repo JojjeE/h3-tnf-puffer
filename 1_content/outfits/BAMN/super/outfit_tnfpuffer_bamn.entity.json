@@ -1,6 +1,6 @@
 {
-	"factory": "00D71043A8C4AB2A",
-	"blueprint": "00068423A9E4B0B5",
+	"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tnfpuffer_bamn_heroa_v0.entitytemplate].pc_entitytemplate",
+	"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tnfpuffer_bamn_heroa_v0.entitytemplate].pc_entityblueprint",
 	"subType": "template",
 	"rootEntity": "98e5c3dd54a75882",
 	"subEntities": {
@@ -170,7 +170,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "008B4F5664359851",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/geomtery/male_reg_shirts.wl2?/tshirt_cut_tnf_puffer.weightedprim](bodypart).pc_weightedprim",
 						"type": "normal"
 					}
 				},
@@ -179,14 +179,14 @@
 				"Texture2D_03": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00460023A8CE81F9",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/textures/base_male_shirt_regular.texture?/specular_supreme_black.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				},
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0097403F130AC5E8",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/textures/base_male_shirt_regular.texture?/diffuse_supreme_black.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				}
@@ -195,8 +195,8 @@
 		"feed5808898236e3": {
 			"parent": "98e5c3dd54a75882",
 			"name": "Jacket_TNF_Puffer",
-			"factory": "[unknown:/*/tnf_nuptse.template].pc_entitytype",
-			"blueprint": "[unknown:/*/tnf_nuptse.template].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Color_Lining": {
 					"type": "SColorRGB",
@@ -210,7 +210,7 @@
 				"Texture2D_02": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse.texture?/colormap_b.tex](ascolormap).pc_tex",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse.texture?/colormap_b.tex](ascolormap).pc_tex",
 						"type": "normal"
 					}
 				}
@@ -437,8 +437,8 @@
 		"cafefd528bdef4b9": {
 			"parent": "98e5c3dd54a75882",
 			"name": "TNF_Logos",
-			"factory": "[unknown:/*/tnf_nuptse_logos.template].pc_entitytype",
-			"blueprint": "[unknown:/*/tnf_nuptse_logos.template].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Color_TNF": { "type": "SColorRGB", "value": "#ffffff" },
 				"Color_Sleeve": { "type": "SColorRGB", "value": "#ffffff" }
@@ -453,7 +453,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[unknown:/*/tnf_nuptse_supreme_logo](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/geometry/agent47_outfits.wl2?/tnf_nuptse_supreme_logo.weightedprim](bodypart).pc_weightedprim",
 						"type": "normal"
 					}
 				},

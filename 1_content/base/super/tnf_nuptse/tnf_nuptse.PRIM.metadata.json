@@ -1,1 +1,8 @@
-{"id":"[unknown:/*/tnf_nuptse](bodypart).pc_weightedprim","type":"PRIM","references":["[assembly:/_pro/characters/assets/civilians/rat/homeless_m_02/male_reg_homeless_02.wl2?/jacket_puffer.weightedprim](bodypart).pc_bonerig",{"resource":"[unknown:/*/tnf_nuptse.mi].pc_mi","type":"normal"}]}
+{
+  "id": "[assembly:/_pro/characters/assets/hero/agent47_outfits/geometry/agent47_outfits.wl2?/tnf_nuptse.weightedprim](bodypart).pc_weightedprim",
+  "type": "PRIM",
+  "references": [
+    "[assembly:/_pro/characters/assets/civilians/rat/homeless_m_02/male_reg_homeless_02.wl2?/jacket_puffer.weightedprim](bodypart).pc_bonerig",
+    { "resource": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse.mi].pc_mi", "type": "normal" }
+  ]
+}

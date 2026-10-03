@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_SNOWCRANE_HERO_SNOWFESTIVALSUIT_M_PRO157925_DESCRIPTION_7C67D864-D1F2-48DB-A5A4-5EF413151CF5": {
+			"english": "A fashionable and warm winter jacket on top of a tee and blue jeans.",
+			"french": "Une veste d'hiver tendance et chaude sur un tee-shirt et un jean bleu.",
+			"german": "Eine modische und warme Winterjacke über einem T-Shirt und Blue Jeans.",
+			"italian": "Una giacca invernale calda e alla moda sopra una t-shirt e dei blue jeans.",
+			"russian": "Модная и теплая зимняя куртка поверх футболки и синих джинсов.",
+			"spanish": "Una chaqueta de invierno moderna y calentita encima de una camiseta y unos vaqueros azules."
+		},
+		"CHAR_SNOWCRANE_HERO_SNOWFESTIVALSUIT_M_PRO157925_NAME_7C67D864-D1F2-48DB-A5A4-5EF413151CF5": {
+			"english": "TNF Nuptse Jacket (By Any Means Necessary)",
+			"french": "Veste TNF Nuptse (By Any Means Necessary)",
+			"german": "TNF Nuptse Jacke (By Any Means Necessary)",
+			"italian": "Giacca TNF Nuptse (By Any Means Necessary)",
+			"russian": "Куртка TNF Nuptse (By Any Means Necessary)",
+			"spanish": "Chaqueta TNF Nuptse (By Any Means Necessary)"
+		}
+	}
+}

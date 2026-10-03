@@ -1,11 +1,11 @@
 {
-	"factory": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_entitytype",
-	"blueprint": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_entityblueprint",
-	"material": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_mi",
+	"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse_supreme_logo.mi].pc_entitytype",
+	"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse_supreme_logo.mi].pc_entityblueprint",
+	"material": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse_supreme_logo.mi].pc_mi",
 	"overrides": {
 		"Texture2D_03": {
 			"type": "texture",
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex"
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex"
 		},
 		"Texture2DCompoundNormal_01": {
 			"type": "texture",
@@ -13,11 +13,11 @@
 		},
 		"Texture2DNormal_01": {
 			"type": "texture",
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/normal_a.tex](asnormalmap).pc_tex"
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_supreme_logo.texture?/normal_a.tex](asnormalmap).pc_tex"
 		},
 		"Texture2D_01": {
 			"type": "texture",
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/diffuse_a.tex](ascolormap).pc_tex"
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_supreme_logo.texture?/diffuse_a.tex](ascolormap).pc_tex"
 		},
 		"Texture2D_04": {
 			"type": "texture",

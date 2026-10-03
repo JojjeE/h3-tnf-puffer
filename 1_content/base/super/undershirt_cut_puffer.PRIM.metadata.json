@@ -1,1 +1,11 @@
-{"id":"008B4F5664359851","type":"PRIM","references":["[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/geomtery/male_reg_shirts.wl2?/tshirt_cut_jacket.weightedprim](bodypart).pc_bonerig",{"resource":"[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/materials/base_male_shirt_regular.mi].pc_mi","type":"normal"}]}
+{
+  "id": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/geomtery/male_reg_shirts.wl2?/tshirt_cut_tnf_puffer.weightedprim](bodypart).pc_weightedprim",
+  "type": "PRIM",
+  "references": [
+    "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/geomtery/male_reg_shirts.wl2?/tshirt_cut_jacket.weightedprim](bodypart).pc_bonerig",
+    {
+      "resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/materials/base_male_shirt_regular.mi].pc_mi",
+      "type": "normal"
+    }
+  ]
+}

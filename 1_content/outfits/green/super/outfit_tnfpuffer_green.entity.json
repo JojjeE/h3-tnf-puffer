@@ -1,6 +1,6 @@
 {
-	"factory": "000154556AE5A7EE",
-	"blueprint": "00105BF643B885D1",
+	"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tnfpuffer_green_heroa_v0.entitytemplate].pc_entitytemplate",
+	"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tnfpuffer_green_heroa_v0.entitytemplate].pc_entityblueprint",
 	"subType": "template",
 	"rootEntity": "98e5c3dd54a75882",
 	"subEntities": {
@@ -163,7 +163,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "008B4F5664359851",
+						"resource": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/shirts/geomtery/male_reg_shirts.wl2?/tshirt_cut_tnf_puffer.weightedprim](bodypart).pc_weightedprim",
 						"type": "normal"
 					}
 				}
@@ -172,8 +172,8 @@
 		"feed5808898236e3": {
 			"parent": "98e5c3dd54a75882",
 			"name": "Jacket_TNF_Puffer",
-			"factory": "[unknown:/*/tnf_nuptse.template].pc_entitytype",
-			"blueprint": "[unknown:/*/tnf_nuptse.template].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Color_Lining": {
 					"type": "SColorRGB",
@@ -392,8 +392,8 @@
 		"cafe21b7d0f37dfc": {
 			"parent": "98e5c3dd54a75882",
 			"name": "TNF_Logos",
-			"factory": "[unknown:/*/tnf_nuptse_logos.template].pc_entitytype",
-			"blueprint": "[unknown:/*/tnf_nuptse_logos.template].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Color_TNF": { "type": "SColorRGB", "value": "#ffffff" },
 				"Color_Sleeve": { "type": "SColorRGB", "value": "#ffffff" }

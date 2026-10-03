@@ -1,5 +1,5 @@
 {
-	"id": "[unknown:/*/tnf_nuptse_supreme_logo.mi].pc_mi",
+	"id": "[assembly:/_pro/characters/assets/hero/agent47/materials/tnf_nuptse_supreme_logo.mi].pc_mi",
 	"name": "tnf_supreme_logo.mi",
 	"type": "Standard",
 	"class": "[[assembly:/_pro/environment/materialclasses/decals/decal_basicmaterial.materialclass].fx](dx11).pc_mate",
@@ -54,7 +54,7 @@
 		"Lerp_09_s": { "enabled": true, "value": [1.0, 1.0, 1.0, 1.0] },
 		"mapTexture2D_03": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_logos.texture?/specular_a.tex](ascolormap).pc_tex",
 			"type": "AsColorMap"
 		},
 		"mapTexture2DCompoundNormal_01": {
@@ -64,12 +64,12 @@
 		},
 		"mapTexture2DNormal_01": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_supreme_logo.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"type": "AsNormalMap"
 		},
 		"mapTexture2D_01": {
 			"enabled": true,
-			"value": "[unknown:/*/agent47_tnf_nuptse.texture?/tnf_nuptse_supreme_logo.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47/textures/tnf_nuptse_supreme_logo.texture?/diffuse_a.tex](ascolormap).pc_tex",
 			"type": "AsColorMap"
 		},
 		"mapTexture2D_04": {
