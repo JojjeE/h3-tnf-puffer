@@ -194,7 +194,7 @@
 		},
 		"feed5808898236e3": {
 			"parent": "98e5c3dd54a75882",
-			"name": "Mesh_Jacket_Puffer",
+			"name": "Jacket_TNF_Puffer",
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -259,10 +259,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_01_Value": [
-						"feed6a508c7536c5",
-						"feed5808898236e3"
-					]
+					"ConstantVector1D_01_Value": ["feed6a508c7536c5"]
 				}
 			}
 		},
@@ -295,7 +292,6 @@
 				"Lerp": {
 					"ConstantVector1D_14_Value": [
 						"feed6a508c7536c5",
-						"feed5808898236e3",
 						"feedbdd7d99dd741"
 					]
 				}
@@ -314,22 +310,6 @@
 			"events": {
 				"Lerp": {
 					"ConstantVector1D_15_Value": ["feed6a508c7536c5"]
-				}
-			}
-		},
-		"feed3a8115ecab64": {
-			"parent": "98e5c3dd54a75882",
-			"name": "baseRough 3",
-			"factory": "[modules:/zmathlerp.class].pc_entitytype",
-			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
-			"properties": {
-				"m_B": { "type": "float32", "value": 0.699999988079071 },
-				"m_fT": { "type": "float32", "value": 0 },
-				"m_A": { "type": "float32", "value": 0.5400000214576721 }
-			},
-			"events": {
-				"Lerp": {
-					"ConstantVector1D_15_Value": ["feed5808898236e3"]
 				}
 			}
 		},
@@ -360,7 +340,10 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_04_Value": ["feed4efaf8ed3652"]
+					"ConstantVector1D_04_Value": [
+						"feed4efaf8ed3652",
+						"feed5808898236e3"
+					]
 				}
 			}
 		},
@@ -378,7 +361,6 @@
 				"Lerp": {
 					"ConstantVector1D_06_Value": [
 						"feed6a508c7536c5",
-						"feed5808898236e3",
 						"feedbdd7d99dd741"
 					]
 				}
@@ -411,7 +393,6 @@
 						"feeda93c87eace15",
 						"feed082b6caa94f2",
 						"feed21eabc4e2678",
-						"feed3a8115ecab64",
 						"feed3473cff979b6",
 						"feedf1db2f23ef1b",
 						"feed73d8f8f89305"
