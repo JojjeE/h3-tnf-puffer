@@ -2,7 +2,7 @@
 	"$schema": "../../manifest-schema.json",
 	"id": "Jojje.TNFPuffer",
 	"name": "TNF Puffer",
-	"description": "Now you too can be the driplord. Choose from 6 variants. Install them for Peacock or replace the Snow Festival Suit, or a casual suit of your choice.",
+	"description": "Now you too can be the driplord. Choose from 7 variants. Install them for Peacock or replace the Snow Festival Suit, or a casual suit of your choice.",
 	"authors": ["Jojje"],
 	"version": "1.1.1",
 	"frameworkVersion": "3.0.0-rc.6",
