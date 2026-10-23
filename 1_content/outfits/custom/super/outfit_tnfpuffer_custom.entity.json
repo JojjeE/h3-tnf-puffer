@@ -287,7 +287,10 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_04_Value": ["feed4efaf8ed3652", "cafe73485f44ee00"]
+					"ConstantVector1D_04_Value": [
+						"feed4efaf8ed3652",
+						"cafe73485f44ee00"
+					]
 				}
 			}
 		},
@@ -351,8 +354,14 @@
 			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/agent47_apparel.template?/tnf_nuptse_logos.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"Color_TNF": { "type": "SColorRGB", "value": "#{option:custom-logo-color}" },
-				"Color_Sleeve": { "type": "SColorRGB", "value": "#{option:custom-sleeve-logo-color}" }
+				"Color_TNF": {
+					"type": "SColorRGB",
+					"value": "#{option:custom-logo-color}"
+				},
+				"Color_Sleeve": {
+					"type": "SColorRGB",
+					"value": "#{option:custom-sleeve-logo-color}"
+				}
 			}
 		},
 		"cafe73485f44ee00": {
@@ -365,7 +374,10 @@
 					"type": "SColorRGB",
 					"value": "#{option:custom-lining-color}"
 				},
-				"Color_Top": { "type": "SColorRGB", "value": "#{option:custom-top-color}" },
+				"Color_Top": {
+					"type": "SColorRGB",
+					"value": "#{option:custom-top-color}"
+				},
 				"Color_Sleeves_Mid": {
 					"type": "SColorRGB",
 					"value": "#{option:custom-sleeves-mid-color}"

@@ -5,7 +5,7 @@
 	"description": "Now you too can be the driplord. Choose from 6 variants. Install them for Peacock or replace the Snow Festival Suit, or a casual suit of your choice.",
 	"authors": ["Jojje"],
 	"version": "1.1.1",
-	"frameworkVersion": "3.0.0-rc.1",
+	"frameworkVersion": "3.0.0-rc.6",
 	"url": "https://github.com/JojjeE/h3-tnf-puffer",
 	"conditions": { "supportedGames": ["h3"] },
 	"data": {
@@ -2232,7 +2232,9 @@
 									"description": "Camo diffuse texture.",
 									"image": "custom_diffuse_camo.jpg",
 									"data": {
-										"contentFolders": ["2_patches/variant/custom/diffuse/camo"]
+										"contentFolders": [
+											"2_patches/variant/custom/diffuse/camo"
+										]
 									}
 								}
 							]
@@ -2255,7 +2257,9 @@
 									"description": "\"By Any Means Necessary\" colormap texture.",
 									"image": "custom_colormap_bamn.jpg",
 									"data": {
-										"contentFolders": ["2_patches/variant/custom/colormap/bamn"]
+										"contentFolders": [
+											"2_patches/variant/custom/colormap/bamn"
+										]
 									}
 								}
 							]
