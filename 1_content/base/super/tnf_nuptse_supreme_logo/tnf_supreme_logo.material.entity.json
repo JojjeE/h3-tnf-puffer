@@ -25,18 +25,51 @@
 		},
 		"ConstantColorRGB_01_Value": {
 			"type": "color",
-			"value": "ffffff"
+			"value": "#ffffff"
 		},
-		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
-		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
-		"ConstantVector1D_05_Value": { "type": "float", "value": 0.0 },
-		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
-		"ConstantVector1D_02_Value": { "type": "float", "value": 0.5 },
-		"ConstantVector1D_01_Value": { "type": "float", "value": 1.0 },
-		"ConstantVector1D_07_Value": { "type": "float", "value": 0.3 },
-		"Lerp_06_s": { "type": "float", "value": 1.0 },
-		"Lerp_07_s": { "type": "float", "value": 1.0 },
-		"Lerp_08_s": { "type": "float", "value": 1.0 },
-		"Lerp_09_s": { "type": "float", "value": 1.0 }
+		"ConstantVector1D_03_Value": {
+			"type": "float",
+			"value": 1
+		},
+		"ConstantVector1D_04_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ConstantVector1D_05_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ConstantVector1D_06_Value": {
+			"type": "float",
+			"value": 1
+		},
+		"ConstantVector1D_02_Value": {
+			"type": "float",
+			"value": 0.5
+		},
+		"ConstantVector1D_01_Value": {
+			"type": "float",
+			"value": 1
+		},
+		"ConstantVector1D_07_Value": {
+			"type": "float",
+			"value": 0.3
+		},
+		"Lerp_06_s": {
+			"type": "float",
+			"value": 1
+		},
+		"Lerp_07_s": {
+			"type": "float",
+			"value": 1
+		},
+		"Lerp_08_s": {
+			"type": "float",
+			"value": 1
+		},
+		"Lerp_09_s": {
+			"type": "float",
+			"value": 1
+		}
 	}
 }
